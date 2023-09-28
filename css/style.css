@@ -17,174 +17,101 @@
   height: auto;
 }
 
-#botonNavegacion {
-  display: flex;
-  justify-content: space-evenly;
-  margin: 40px 0px;
-  position: relative;
-  top: 80px;
-}
-
-#botonNavegacion a {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 180px;
-  height: 70px;
-  background-color: white;
-  border-radius: 10px;
-  font-weight: bold;
-  font-size: 18px;
-  box-shadow: 1px 1px 6px 0px #373736;
-  color: #373736;
-  border-bottom: 5px solid transparent;
-}
-
-#botonNavegacion a img {
-  margin-right: 20px;
-}
-
-#botonNavegacion a:hover {
-  border-bottom: 5px solid #466967;
-  color: #466967;
-}
-
 #containerContenido {
   background-color: white;
-  margin: 0 20px;
-  padding-top: 90px;
+  margin: 0 10px;
+
 }
 
-#containerContenido h1{
+#containerContenido #portada{
+  width: 100%;
+  height: 465px;
+  background-image: url(/img/portada.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#containerContenido #portada h1{
   text-align: center;
-  color: #585858;
+  color: #F1880D;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 48px;
+  padding: 87px 70px 10px 70px;
+  text-align: left;
 }
 
-#containerContenido #parrafoPrincipal {
-  padding: 25px 40px;
+#containerContenido #portada p{
   text-align: justify;
-}
-
-#containerContenido #modulos{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 30px 60px;
-}
-
-#containerContenido #modulosGris{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 30px 60px;
-  background-color: #F4F3F4;
-}
-
-#containerContenido #modulos #contenidoModulos{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-left: 30px;
-}
-
-#containerContenido #modulosGris #contenidoModulos{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-left: 30px;
-}
-
-#contenidoModulos #tituloUno {
-  color: #F1880D;
-  font-size: 28px;
-  font-weight: bold;
-}
-
-#contenidoModulos #subTituloUno {
-  color: #F1880D;
   font-size: 18px;
-  font-weight: 300;
-  margin-bottom: 17px;
+  padding: 10px 160px;
+  margin-bottom: 10px;
 }
 
-#contenidoModulos #tituloDos {
-  color: #3F8E88;
-  font-size: 28px;
-  font-weight: bold;
-}
-
-#contenidoModulos #subTituloDos {
-  color: #3F8E88;
-  font-size: 18px;
-  font-weight: 300;
-  margin-bottom: 17px;
-}
-
-#contenidoModulos #tituloTres {
-  color: #185694;
-  font-size: 28px;
-  font-weight: bold;
-}
-
-#contenidoModulos #subTituloTres {
-  color: #185694;
-  font-size: 18px;
-  font-weight: 300;
-  margin-bottom: 17px;
-}
-
-#contenidoModulos p {
-  font-weight: lighter;
-  font-size: 18px;
-  margin-bottom: 20px;
-}
-
-#contenidoModulos a {
+#containerContenido #portada a{
   font-weight: bold;
   font-size: 18px;
   color: white;
-  width: 120px;
   border-radius: 22px;
   text-align: center;
-  padding: 8px;
-}
-
-#contenidoModulos #btn1 {
+  margin: 0 160px;
+  padding: 5px 10px;
   background-color: #F1880D;
   border: 1px solid transparent;
 }
 
-#contenidoModulos #btn1:hover {
+#containerContenido #portada a:hover {
   background-color: white;
   color: #F1880D;
   border: 1px solid #F1880D;
 }
 
-#contenidoModulos #btn2 {
-  background-color: #3F8E88;
+#containerContenido #parrafoPrincipal {
+  padding: 0 130px 40px;
+  text-align: center;
+}
+
+#containerContenido #botones {
+  display: flex;
+  justify-content: right;
+  margin: 30px 40px 0 0;
+}
+
+#containerContenido #botones a {
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 22px;
+  text-align: center;
+  margin-left: 10px;
+}
+
+#containerContenido #btn1 {
+  background-color: #F4F3F4;
   border: 1px solid transparent;
+  color: #585858;
+  padding: 5px 20px;
 }
 
-#contenidoModulos #btn2:hover {
+#containerContenido #btn1:hover {
   background-color: white;
-  color: #3F8E88;
-  border: 1px solid #3F8E88;
+  color: #585858;
+  border: 1px solid #585858;
 }
 
-#contenidoModulos #btn3 {
-  background-color: #185694;
+#containerContenido #btn2 {
+  background-color: #F1880D;
   border: 1px solid transparent;
+  color: white;
+  padding: 5px 10px;
 }
 
-#contenidoModulos #btn3:hover {
+#containerContenido #btn2:hover {
   background-color: white;
-  color: #185694;
-  border: 1px solid #185694;
+  color: #F1880D;
+  border: 1px solid #F1880D;
 }
 
-#footerimg {
+#footer img {
   width: 100%;
   height: auto;
 }
