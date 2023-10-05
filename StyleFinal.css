@@ -1,417 +1,420 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+
 * {
-  margin: 0;
-  font-family: 'Roboto Condensed', sans-serif;
-  text-decoration: none;
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-decoration: none;
 }
 
 /* CSS Pagina principal */
 #principalContainer {
-  background-color: #F4F3F4;
-  display: flex;
-  flex-direction: column;
-  margin: 0 20%;
+    background-color: #F4F3F4;
+    display: flex;
+    flex-direction: column;
+    margin: 0 20%;
 }
 
 #header img {
-  width: 100%;
-  height: auto;
+    width: 100%;
+    height: auto;
 }
 
 #botonNavegacion {
-  display: flex;
-  justify-content: space-evenly;
-  margin: 40px 0px;
-  position: relative;
-  top: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 40px 0px;
+    position: relative;
+    top: 80px;
 }
 
 #botonNavegacion a {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 180px;
-  height: 70px;
-  background-color: white;
-  border-radius: 10px;
-  font-weight: bold;
-  font-size: 18px;
-  box-shadow: 1px 1px 6px 0px #373736;
-  color: #373736;
-  border-bottom: 5px solid transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+    height: 70px;
+    background-color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    box-shadow: 1px 1px 6px 0px #373736;
+    color: #373736;
+    border-bottom: 5px solid transparent;
 }
 
 #botonNavegacion a img {
-  margin-right: 20px;
+    margin-right: 20px;
 }
 
 #botonNavegacion a:hover {
-  border-bottom: 5px solid #466967;
-  color: #466967;
+    border-bottom: 5px solid #466967;
+    color: #466967;
 }
 
 #containerContenidoPPrincipal {
-  background-color: white;
-  margin: 0 20px;
-  padding-top: 90px;
+    background-color: white;
+    margin: 0 20px;
+    padding-top: 90px;
 }
 
-#containerContenidoPPrincipal h1{
-  text-align: center;
-  color: #585858;
-  font-weight: bold;
-  font-size: 30px;
+#containerContenidoPPrincipal h1 {
+    text-align: center;
+    color: #585858;
+    font-weight: bold;
+    font-size: 30px;
 }
 
 #containerContenidoPPrincipal #parrafoPrincipal {
-  padding: 25px 40px;
-  text-align: justify;
+    padding: 25px 40px;
+    text-align: justify;
 }
 
-#containerContenidoPPrincipal #modulos{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 30px 60px;
+#containerContenidoPPrincipal #modulos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 60px;
 }
 
-#containerContenidoPPrincipal #modulosGris{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 30px 60px;
-  background-color: #F4F3F4;
+#containerContenidoPPrincipal #modulosGris {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 60px;
+    background-color: #F4F3F4;
 }
 
-#containerContenidoPPrincipal #modulos #contenidoModulos{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-left: 30px;
+#containerContenidoPPrincipal #modulos #contenidoModulos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 30px;
 }
 
-#containerContenidoPPrincipal #modulosGris #contenidoModulos{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-left: 30px;
+#containerContenidoPPrincipal #modulosGris #contenidoModulos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 30px;
 }
 
 #contenidoModulos #tituloUno {
-  color: #F1880D;
-  font-size: 28px;
-  font-weight: bold;
+    color: #F1880D;
+    font-size: 28px;
+    font-weight: bold;
 }
 
 #contenidoModulos #subTituloUno {
-  color: #F1880D;
-  font-size: 18px;
-  font-weight: 300;
-  margin-bottom: 17px;
+    color: #F1880D;
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 17px;
 }
 
 #contenidoModulos #tituloDos {
-  color: #3F8E88;
-  font-size: 28px;
-  font-weight: bold;
+    color: #3F8E88;
+    font-size: 28px;
+    font-weight: bold;
 }
 
 #contenidoModulos #subTituloDos {
-  color: #3F8E88;
-  font-size: 18px;
-  font-weight: 300;
-  margin-bottom: 17px;
+    color: #3F8E88;
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 17px;
 }
 
 #contenidoModulos #tituloTres {
-  color: #185694;
-  font-size: 28px;
-  font-weight: bold;
+    color: #185694;
+    font-size: 28px;
+    font-weight: bold;
 }
 
 #contenidoModulos #subTituloTres {
-  color: #185694;
-  font-size: 18px;
-  font-weight: 300;
-  margin-bottom: 17px;
+    color: #185694;
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 17px;
 }
 
 #contenidoModulos p {
-  font-weight: lighter;
-  font-size: 18px;
-  margin-bottom: 20px;
+    font-weight: lighter;
+    font-size: 18px;
+    margin-bottom: 20px;
 }
 
 #contenidoModulos a {
-  font-weight: bold;
-  font-size: 18px;
-  color: white;
-  width: 120px;
-  border-radius: 22px;
-  text-align: center;
-  padding: 8px;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    width: 120px;
+    border-radius: 22px;
+    text-align: center;
+    padding: 8px;
 }
 
 #contenidoModulos #btn1 {
-  background-color: #F1880D;
-  border: 1px solid transparent;
+    background-color: #F1880D;
+    border: 1px solid transparent;
 }
 
 #contenidoModulos #btn1:hover {
-  background-color: white;
-  color: #F1880D;
-  border: 1px solid #F1880D;
+    background-color: white;
+    color: #F1880D;
+    border: 1px solid #F1880D;
 }
 
 #contenidoModulos #btn2 {
-  background-color: #3F8E88;
-  border: 1px solid transparent;
+    background-color: #3F8E88;
+    border: 1px solid transparent;
 }
 
 #contenidoModulos #btn2:hover {
-  background-color: white;
-  color: #3F8E88;
-  border: 1px solid #3F8E88;
+    background-color: white;
+    color: #3F8E88;
+    border: 1px solid #3F8E88;
 }
 
 #contenidoModulos #btn3 {
-  background-color: #185694;
-  border: 1px solid transparent;
+    background-color: #185694;
+    border: 1px solid transparent;
 }
 
 #contenidoModulos #btn3:hover {
-  background-color: white;
-  color: #185694;
-  border: 1px solid #185694;
+    background-color: white;
+    color: #185694;
+    border: 1px solid #185694;
 }
 
 #footer img {
-  width: 100%;
-  height: auto;
+    width: 100%;
+    height: auto;
 }
 
 /* CSS Pagina Modulos */
 #containerContenidoPModulos {
-  background-color: white;
-  margin: 0 10px;
+    background-color: white;
+    margin: 0 10px;
 
 }
 
-#containerContenidoPModulos #portada{
-  width: 100%;
-  height: 465px;
-  background-image: url(/ContenidoModulo/img/portada.svg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
+#containerContenidoPModulos #portada {
+    width: 100%;
+    height: 465px;
+    background-image: url(/ContenidoModulo/img/portada.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-#containerContenidoPModulos #portada h1{
-  text-align: center;
-  color: #F1880D;
-  font-weight: bold;
-  font-size: 48px;
-  text-align: left;
+#containerContenidoPModulos #portada h1 {
+    text-align: center;
+    color: #F1880D;
+    font-weight: bold;
+    font-size: 48px;
+    text-align: left;
 }
 
-#containerContenidoPModulos #portada p{
-  text-align: justify;
-  font-size: 18px;
-  margin-bottom: 10px;
+#containerContenidoPModulos #portada p {
+    text-align: justify;
+    font-size: 18px;
+    margin-bottom: 10px;
 }
 
-#containerContenidoPModulos #portada a{
-  font-weight: bold;
-  font-size: 18px;
-  color: white;
-  border-radius: 22px;
-  text-align: center;
-  padding: 5px 10px;
-  background-color: #F1880D;
-  border: 1px solid transparent;
+#containerContenidoPModulos #portada a {
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    border-radius: 22px;
+    text-align: center;
+    padding: 5px 10px;
+    background-color: #F1880D;
+    border: 1px solid transparent;
 }
 
 #containerContenidoPModulos #portada a:hover {
-  background-color: white;
-  color: #F1880D;
-  border: 1px solid #F1880D;
+    background-color: white;
+    color: #F1880D;
+    border: 1px solid #F1880D;
 }
 
 #containerContenidoPModulos #parrafoPrincipal {
-  padding: 0 130px 40px;
-  text-align: center;
+    padding: 0 130px 40px;
+    text-align: center;
 }
 
 #containerContenidoPModulos #botones {
-  display: flex;
-  justify-content: right;
-  margin: 30px 40px 0 0;
+    display: flex;
+    justify-content: right;
+    margin: 30px 40px 0 0;
 }
 
 #containerContenidoPModulos #botones a {
-  font-weight: bold;
-  font-size: 18px;
-  border-radius: 22px;
-  text-align: center;
-  margin-left: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 22px;
+    text-align: center;
+    margin-left: 10px;
 }
 
 #containerContenidoPModulos #btn1 {
-  background-color: #F4F3F4;
-  border: 1px solid transparent;
-  color: #585858;
-  padding: 5px 20px;
+    background-color: #F4F3F4;
+    border: 1px solid transparent;
+    color: #585858;
+    padding: 5px 20px;
 }
 
 #containerContenidoPModulos #btn1:hover {
-  background-color: white;
-  color: #585858;
-  border: 1px solid #585858;
+    background-color: white;
+    color: #585858;
+    border: 1px solid #585858;
 }
 
 #containerContenidoPModulos #btn2 {
-  background-color: #F1880D;
-  border: 1px solid transparent;
-  color: white;
-  padding: 5px 10px;
+    background-color: #F1880D;
+    border: 1px solid transparent;
+    color: white;
+    padding: 5px 10px;
 }
 
 #containerContenidoPModulos #btn2:hover {
-  background-color: white;
-  color: #F1880D;
-  border: 1px solid #F1880D;
+    background-color: white;
+    color: #F1880D;
+    border: 1px solid #F1880D;
 }
 
 /*Mobile*/
 @media only screen and (max-width: 600px) {
 
-  #principalContainer {
-    margin: 0;
-  }
+    #principalContainer {
+        margin: 0;
+    }
 
-  #containerContenidoPModulos #portada {
-    background: #F4F3F4;
-    height: 175px;
-  }
+    #containerContenidoPModulos #portada {
+        background: #F4F3F4;
+        height: 175px;
+    }
 
-#containerContenidoPModulos #portada h1 {
-    font-size: 20px;
-    padding: 20px 0px 5px 50px;
-}
+    #containerContenidoPModulos #portada h1 {
+        font-size: 20px;
+        padding: 20px 0px 5px 50px;
+    }
 
-#containerContenidoPModulos #portada p {
-    font-size: 15px;
-    padding: 0px 50px;
-    line-height: 15px;
-    margin-bottom: 15px;
-}
-#containerContenidoPModulos #portada a {
-    font-size: 15px;
-    margin: 0px 60px;
-    padding: 2px 13px;
-}
+    #containerContenidoPModulos #portada p {
+        font-size: 15px;
+        padding: 0px 50px;
+        line-height: 15px;
+        margin-bottom: 15px;
+    }
 
-#containerContenidoPModulos #parrafoPrincipal {
-    padding: 30px 40px 15px;
-}
+    #containerContenidoPModulos #portada a {
+        font-size: 15px;
+        margin: 0px 60px;
+        padding: 2px 13px;
+    }
 
-#containerContenidoPModulos iframe {
-    height: 300px;
-}
+    #containerContenidoPModulos #parrafoPrincipal {
+        padding: 30px 40px 15px;
+    }
 
-#containerContenidoPModulos #botones {
-    margin: 0 20px 0 0;
-}
+    #containerContenidoPModulos iframe {
+        height: 300px;
+    }
 
-#containerContenidoPModulos #botones a {
-    font-size: 15px;
-}
+    #containerContenidoPModulos #botones {
+        margin: 0 20px 0 0;
+    }
+
+    #containerContenidoPModulos #botones a {
+        font-size: 15px;
+    }
 }
 
 @media only screen and (min-width: 600px) {
 
-  #principalContainer {
-      margin: 0;
-  }
+    #principalContainer {
+        margin: 0;
+    }
 
-  #containerContenidoPModulos #portada h1 {
-    font-size: 30px;
-    padding: 50px 70px 10px 70px;
-  }
-  #containerContenidoPModulos #portada p {
-    padding: 10px 140px;
-    margin-bottom: 20px;
-}
+    #containerContenidoPModulos #portada h1 {
+        font-size: 30px;
+        padding: 50px 70px 10px 70px;
+    }
 
-#containerContenidoPModulos #portada a {
-    margin: 0 140px;
-}
+    #containerContenidoPModulos #portada p {
+        padding: 10px 140px;
+        margin-bottom: 20px;
+    }
 
-#containerContenidoPModulos #parrafoPrincipal {
-    padding: 5px 70px 20px;
-    text-align: center;
-}
+    #containerContenidoPModulos #portada a {
+        margin: 0 140px;
+    }
 
-#containerContenidoPModulos iframe {
-    height: 320px;
-}
+    #containerContenidoPModulos #parrafoPrincipal {
+        padding: 5px 70px 20px;
+        text-align: center;
+    }
+
+    #containerContenidoPModulos iframe {
+        height: 320px;
+    }
 
 }
 
 @media only screen and (min-width: 992px) {
 
-  #containerContenidoPModulos #portada {
-    height: 590px;
-  }
+    #containerContenidoPModulos #portada {
+        height: 590px;
+    }
 
-  #containerContenidoPModulos #portada h1 {
-    font-size: 40px;
-    padding: 100px 90px 15px 150px;
-  }
+    #containerContenidoPModulos #portada h1 {
+        font-size: 40px;
+        padding: 100px 90px 15px 150px;
+    }
 
-  #containerContenidoPModulos #portada p {
-    padding: 10px 220px;
-    font-size: 20px;
-  }
+    #containerContenidoPModulos #portada p {
+        padding: 10px 220px;
+        font-size: 20px;
+    }
 
-  #containerContenidoPModulos #portada a {
-    margin: 0 220px;
-  }
+    #containerContenidoPModulos #portada a {
+        margin: 0 220px;
+    }
 
-  #containerContenidoPModulos #parrafoPrincipal {
-    padding: 10px 170px 20px;
-    font-size: 20px;
-  }
+    #containerContenidoPModulos #parrafoPrincipal {
+        padding: 10px 170px 20px;
+        font-size: 20px;
+    }
 
-  #containerContenidoPModulos iframe {
-    height: 400px;
-}
+    #containerContenidoPModulos iframe {
+        height: 400px;
+    }
 }
 
 @media only screen and (min-width: 1200px) {
-  #principalContainer {
-  margin: 0 20%;
-  }
+    #principalContainer {
+        margin: 0 20%;
+    }
 
-  #containerContenidoPModulos #portada {
-    height: 465px;
-  }
+    #containerContenidoPModulos #portada {
+        height: 465px;
+    }
 
-  #containerContenidoPModulos #portada h1 {
-    padding: 70px 0px 10px 115px;
-  }
+    #containerContenidoPModulos #portada h1 {
+        padding: 70px 0px 10px 115px;
+    }
 
-  #containerContenidoPModulos #portada p {
-    padding: 10px 165px;
-  }
+    #containerContenidoPModulos #portada p {
+        padding: 10px 165px;
+    }
 
-  #containerContenidoPModulos #portada a {
-    margin: 0 165px;
-  }
+    #containerContenidoPModulos #portada a {
+        margin: 0 165px;
+    }
 
-  #containerContenidoPModulos #parrafoPrincipal {
-    padding: 10px 125px 20px;
-  }
+    #containerContenidoPModulos #parrafoPrincipal {
+        padding: 10px 125px 20px;
+    }
 }
 
 /* CSS Pagina Foro */
@@ -419,9 +422,9 @@
     margin-left: 500px;
     margin-right: 500px;
     padding-top: 35px;
+    margin-top: -4px;
     background: #F4F3F4;
     margin-bottom: 40px;
-
 }
 
 #banner {
@@ -458,7 +461,17 @@
     word-wrap: break-word;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
+
+
+#container-btn:hover {
+    background-color: white;
+    color: #466967;
+    border: 1px solid #466967;
+    border-bottom: 8px solid #466967;
+}
+
 
 #btn-decoration {
     text-decoration: none;
@@ -470,7 +483,6 @@
     margin-bottom: 12px;
     margin-right: 10px;
     font-size: 24px;
-    font-family: Roboto Condensed;
 }
 
 #img {
@@ -490,7 +502,7 @@
 
 }
 
-#img-content {
+#img-content-foro {
     margin-top: 130px;
     margin-left: 100px;
     margin-bottom: 100px;
@@ -499,8 +511,6 @@
 
 #p-foro {
     color: black;
-    font-size: 18px;
-    font-family: Roboto Condensed;
     font-weight: 300;
     word-wrap: break-word;
     margin-right: 120px;
@@ -509,7 +519,6 @@
 #title-foro {
     color: #466967;
     font-size: 48px;
-    font-family: Roboto Condensed;
     font-weight: 700;
     word-wrap: break-word;
     margin-bottom: 20px;
@@ -520,7 +529,6 @@
     height: 100%;
     color: black;
     font-size: 22px;
-    font-family: Roboto Condensed;
     font-weight: bold;
     word-wrap: break-word;
     margin-bottom: 20px;
@@ -530,7 +538,7 @@
     margin-left: 35px;
 }
 
-#concerns{
+#concerns {
     padding-bottom: 40px;
 }
 
@@ -545,7 +553,6 @@
     height: 100%;
     color: #466967;
     font-size: 35px;
-    font-family: Roboto Condensed;
     font-weight: 700;
     word-wrap: break-word;
     margin-top: 50px;
@@ -554,7 +561,6 @@
 #p-concerns {
     color: black;
     font-size: 18px;
-    font-family: Roboto Condensed;
     font-weight: 300;
     margin-bottom: 40px;
     word-wrap: break-word;
@@ -574,8 +580,6 @@
     border-radius: 22px;
     color: white;
     font-size: 18px;
-    font-family:
-    Roboto Condensed;
     font-weight: 700;
     padding: 6px;
     padding-left: 25px;
@@ -638,7 +642,7 @@
         margin-right: 180px;
     }
 
-    #img-content {
+    #img-content-foro {
         margin-top: 130px;
         margin-left: 100px;
         margin-bottom: 100px;
@@ -653,7 +657,7 @@
         margin-right: 100px;
     }
 
-    #container-btn{
+    #container-btn {
         height: 70px;
     }
 
@@ -664,9 +668,7 @@
 }
 
 
-@media(max-width: 1030px) {
-
-}
+@media(max-width: 1030px) {}
 
 
 @media(max-width: 1003px) {
@@ -697,11 +699,12 @@
 
 
 @media(max-width: 854px) {
-    #container-btn{
+    #container-btn {
 
         height: 70px;
     }
-    #img-content {
+
+    #img-content-foro {
         margin-top: 100px;
         margin-bottom: 30px;
         margin-left: 0px;
@@ -723,15 +726,23 @@
         margin-left: 50px;
     }
 
-    #container_content{
+    #container_content {
         display: block;
         text-align: center;
     }
 
-    #container-text-foro{
+    #container-text-foro {
         padding-bottom: 30px;
         margin-left: 0px;
     }
+
+    #p-foro {
+        font-size: 16.5px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+
 
 }
 
@@ -781,7 +792,8 @@
         margin-top: 0px;
         margin-bottom: 0px;
     }
-    #img-content {
+
+    #img-content-foro {
         width: 220px;
     }
 
@@ -796,7 +808,9 @@
 
     #p-foro {
         font-size: 16.5px;
+        margin-right: 0px;
     }
+
 
     #title-concerns {
         font-size: 28px;
@@ -823,11 +837,11 @@
         margin-left: 40px;
     }
 
-    #img-concerns{
+    #img-concerns {
         display: none;
     }
 
-    #concerns{
+    #concerns {
         text-align: center;
     }
 
@@ -842,7 +856,17 @@
         justify-content: center;
         margin-bottom: -19px;
     }
+
+    #p-concerns {
+        margin-right: 0px;
+    }
 }
+
+
+
+
+
+
 
 /* CSS Pagina Tematicas */
 #container-temas-modulos {
@@ -850,8 +874,6 @@
     margin-right: 500px;
     padding-top: 0px;
     background: white;
-    font-family: Roboto Condensed;
-
 }
 
 
@@ -864,19 +886,19 @@
 
 }
 
-#img-papel-banner{
+#img-papel-banner {
     display: none;
 }
 
-#container-img-banner-movil{
+#container-img-banner-movil {
     display: none;
 
 }
 
 
-#title-banner-movil{
+#title-banner-movil {
     visibility: hidden;
- }
+}
 
 
 
@@ -899,8 +921,8 @@
     align-items: center;
 }
 
-#img-content {
-    margin-top: 20px;
+#img-content-tematica {
+    margin-top: 100px;
     margin-left: 100px;
     margin-bottom: 60px;
 }
@@ -909,7 +931,6 @@
 #p-explorar-tematica {
     color: black;
     font-size: 18px;
-    font-family: Roboto Condensed;
     font-weight: 300;
     word-wrap: break-word;
     margin-right: 16px;
@@ -918,7 +939,6 @@
 #title-explorar-tematica {
     color: #F1880D;
     font-size: 35px;
-    font-family: Roboto Condensed;
     font-weight: 700;
     word-wrap: break-word;
     margin-right: 22px;
@@ -1083,7 +1103,7 @@
         margin-right: 180px;
     }
 
-    #img-content {
+    #img-content-tematica {
         margin-top: 130px;
         margin-left: 100px;
         margin-bottom: 100px;
@@ -1149,8 +1169,26 @@
 
 
 @media(max-width: 854px) {
-    #img-banner{
+    #img-banner {
         display: none;
+    }
+
+    #container-img-banner-movil{
+        background-color: #466966
+    }
+
+    #title-banner-movil{
+        margin-right: 40px;
+        margin-left: 40px;
+    }
+
+    #img-escritorio-banner-movil{
+        height: 140px;
+    }
+
+    #container-title-img-banner-movil{
+        display: flex; 
+        justify-content: end; 
     }
 
     #container-btn {
@@ -1163,8 +1201,8 @@
     }
 
 
-    #img-content {
-        margin-top: 10px;
+    #img-content-tematica {
+        margin-top: 40px;
         margin-left: 0px;
         margin-bottom: 40px;
     }
@@ -1175,35 +1213,41 @@
         margin-left: 0px;
     }
 
-    #title-explorar-tematica{
+    #title-explorar-tematica {
         font-size: 28px;
     }
 
-    #img-papel-banner{
+    #img-papel-banner {
         display: block;
         width: 100.3%;
         height: 140px;
         margin-top: -60px;
     }
 
-    #container-img-banner-movil{
+    #container-img-banner-movil {
         height: 240px;
         display: block;
         text-align: center;
     }
 
 
-    #title-banner-movil{
+    #title-banner-movil {
         height: 120px;
         width: 380px;
         margin-top: 40px;
         visibility: visible;
-     }
+    }
 
 
 }
 
 @media(max-width: 730px) {
+
+
+    #img-escritorio-banner-movil{
+        width: 120px;
+        height: 120px;
+    }
 
     #container-temas-modulos {
         margin-left: 15px;
@@ -1244,14 +1288,16 @@
         margin-right: 28px;
     }
 
-    #title-topics{
-        font-size: 19px;
+    #title-topics {
+        font-size: 22px;
+        margin-top: 10px;
     }
 
-    #p-topics{
-        font-size: 19px;
+    #p-topics {
+        font-size: 22px;
     }
-    #btn-explorar-tematica{
+
+    #btn-explorar-tematica {
         font-size: 15px;
     }
 
@@ -1260,20 +1306,20 @@
         padding-right: 35px;
     }
 
-    #title-explorar-tematica{
+    #title-explorar-tematica {
         font-size: 28px;
     }
 
-    #p-explorar-tematica{
+    #p-explorar-tematica {
         font-size: 17px;
     }
 
-    #title-banner-movil{
+    #title-banner-movil {
         height: 90px;
         width: 340px;
         margin-top: 40px;
         visibility: visible;
-     }
+    }
 }
 
 
@@ -1285,6 +1331,7 @@
     }
 
 }
+
 @media(max-width: 400px) {
 
     #topics {
@@ -1292,7 +1339,7 @@
         padding-right: 15px;
     }
 
-    #title-explorar-tematica{
+    #title-explorar-tematica {
         font-size: 25px;
     }
 
@@ -1306,9 +1353,8 @@
 
     }
 
-    #banner{
+    #banner {
         margin-right: 20px;
     }
 
 }
-
