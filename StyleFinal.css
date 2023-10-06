@@ -20,25 +20,28 @@
 
 #botonNavegacion {
     display: flex;
-    justify-content: space-evenly;
-    margin: 40px 0px;
+    justify-content: center;
     position: relative;
-    top: 80px;
+    top: 35px;
 }
 
 #botonNavegacion a {
+    margin: 15px;
+    height: 78px;
+    width: 215px;
+    border-radius: 7px;
+    border: none;
+    background-color: #FFFFFF;
+    border: solid 0.5px rgba(228, 228, 228, 0.959);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 5px 0px;
+    text-align: left;
+    color: #373736;
     display: flex;
+    word-wrap: break-word;
     align-items: center;
     justify-content: center;
-    width: 180px;
-    height: 70px;
-    background-color: white;
-    border-radius: 10px;
     font-weight: bold;
-    font-size: 18px;
-    box-shadow: 1px 1px 6px 0px #373736;
-    color: #373736;
-    border-bottom: 5px solid transparent;
+    border-bottom: 6px solid transparent;
 }
 
 #botonNavegacion a i {
@@ -47,7 +50,7 @@
 }
 
 #botonNavegacion a:hover {
-    border-bottom: 5px solid #466967;
+    border-bottom: 6px solid #466967;
     color: #466967;
 }
 
@@ -55,6 +58,7 @@
     background-color: white;
     margin: 0 20px;
     padding-top: 90px;
+    border-radius: 5px;
 }
 
 #containerContenidoPPrincipal h1 {
@@ -66,21 +70,22 @@
 
 #containerContenidoPPrincipal #parrafoPrincipal {
     padding: 25px 40px;
-    text-align: justify;
+    text-align: center;
+    margin: 0px 70px;
 }
 
 #containerContenidoPPrincipal #modulos {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 30px 60px;
+    margin: 50px 140px;
 }
 
 #containerContenidoPPrincipal #modulosGris {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 30px 60px;
+    padding: 50px 140px;
     background-color: #F4F3F4;
 }
 
@@ -147,10 +152,10 @@
     font-weight: bold;
     font-size: 18px;
     color: white;
-    width: 120px;
+    width: 150px;
     border-radius: 22px;
     text-align: center;
-    padding: 8px;
+    padding: 5px 0;
 }
 
 #contenidoModulos #btn1 {
