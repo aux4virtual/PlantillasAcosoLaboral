@@ -605,6 +605,45 @@
     }
 }
 
+@media only screen and (min-width: 992px) {
+    #botonNavegacion a {
+        margin: 0 30px;
+        height: 70px;
+        width: 200px;
+        font-size: 20px;
+   }
+
+   #botonNavegacion a i {
+        font-size: 30px;
+    }
+
+    #containerContenidoPPrincipal #titulo {
+        font-size: 35px;
+    }
+
+    #containerContenidoPPrincipal #parrafoPrincipal {
+        padding: 10px 15px 0;
+        margin: 0px 20px;
+        font-size: 20px;
+    }
+
+    #containerContenidoPPrincipal iframe {
+        height: 520px;
+    }
+
+    #containerContenidoPPrincipal #modulos {
+        margin: 10px 90px;
+    }
+
+    #containerContenidoPPrincipal #modulosGris {
+        padding: 10px 90px;
+    }
+
+    #containerContenidoPPrincipal #modulos img {
+        width: 40%;
+    }
+}
+
 /*Mobile*/
 /* @media only screen and (max-width: 600px) {
 
