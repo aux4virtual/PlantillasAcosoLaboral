@@ -305,9 +305,9 @@
     }
 }
 
-/* Dispositivos pequeÃ±os (tabletas verticales y telefonos grandes, 600 px y mes) */
+/* Dispositivos pequeÃ±os (tabletas verticales y telefonos grandes, 600 px y mas) */
 @media only screen and (min-width: 600px) {
- #principalContainer {
+#principalContainer {
     background-color: #F4F3F4;
     display: flex;
     flex-direction: column;
@@ -327,8 +327,8 @@
 
 #botonNavegacion a {
     margin: 0 10px;
-    height: 50px;
-    width: 70px;
+    height: 60px;
+    width: 160px;
     border-radius: 7px;
     background-color: #FFFFFF;
     border: solid 0.5px rgba(228, 228, 228, 0.959);
@@ -345,10 +345,11 @@
 
 #botonNavegacion a i {
     font-size: 25px;
+    margin-right: 10px;
 }
 
 #botonNavegacion #textoMenu {
-    display: none;
+    display: block;
 }
 
 #botonNavegacion a:hover {
@@ -359,11 +360,11 @@
 #containerContenidoPPrincipal {
     background-color: white;
     margin: 0 10px;
-    padding-top: 90px;
+    padding-top: 80px;
     border-radius: 5px;
 }
 
-#containerContenidoPPrincipal h1 {
+#containerContenidoPPrincipal #titulo {
     text-align: center;
     color: #585858;
     font-weight: bold;
@@ -371,13 +372,13 @@
 }
 
 #containerContenidoPPrincipal #parrafoPrincipal {
-    padding: 25px 5px 0;
+    padding: 10px 5px 0;
     text-align: center;
     margin: 0px 20px;
 }
 
 #containerContenidoPPrincipal iframe {
-    height: 230px;
+    height: 390px;
 }
 
 #containerContenidoPPrincipal #modulos {
@@ -385,7 +386,7 @@
     justify-content: center;
     align-items: center;
     margin: 10px;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 #containerContenidoPPrincipal #modulos img {
@@ -398,23 +399,23 @@
     align-items: center;
     padding: 10px;
     background-color: #F4F3F4;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 #containerContenidoPPrincipal #modulos #contenidoModulos {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 30px 0;
-    align-items: center;
+    margin: 30px 25px;
+    align-items: start;
 }
 
 #containerContenidoPPrincipal #modulosGris #contenidoModulos {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 30px 0;
-    align-items: center;
+    margin: 30px 25px;
+    align-items: start;
 }
 
 #contenidoModulos #tituloUno {
@@ -460,7 +461,7 @@
     font-weight: lighter;
     font-size: 18px;
     margin-bottom: 20px;
-    text-align: center;
+    text-align: left;
 }
 
 #contenidoModulos a {
