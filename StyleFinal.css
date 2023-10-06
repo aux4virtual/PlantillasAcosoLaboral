@@ -283,8 +283,8 @@
     border: 1px solid #F1880D;
 }
 
-/* /*Mobile*/
-@media only screen and (max-width: 600px) {
+/*Mobile*/
+/* @media only screen and (max-width: 600px) {
 
     #principalContainer {
         margin: 0;
