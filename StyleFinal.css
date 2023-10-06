@@ -11,7 +11,6 @@
     background-color: #F4F3F4;
     display: flex;
     flex-direction: column;
-    margin: 0 20%;
 }
 
 #header img {
@@ -284,7 +283,7 @@
     border: 1px solid #F1880D;
 }
 
-/*Mobile*/
+/* /*Mobile*/
 @media only screen and (max-width: 600px) {
 
     #principalContainer {
@@ -416,7 +415,7 @@
     #containerContenidoPModulos #parrafoPrincipal {
         padding: 10px 125px 20px;
     }
-}
+} */
 
 /* CSS Pagina Foro */
 #container-foro {
