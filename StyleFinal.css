@@ -307,27 +307,301 @@
 
 /* Dispositivos pequeÃ±os (tabletas verticales y telefonos grandes, 600 px y mes) */
 @media only screen and (min-width: 600px) {
-    #botonNavegacion a {
-    margin: 0 15px;
-    width: 150px;
+ #principalContainer {
+    background-color: #F4F3F4;
+    display: flex;
+    flex-direction: column;
+}
+
+#header img {
+    width: 100%;
+    height: auto;
+}
+
+#botonNavegacion {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 30px;
+}
+
+#botonNavegacion a {
+    margin: 0 10px;
+    height: 50px;
+    width: 70px;
+    border-radius: 7px;
+    background-color: #FFFFFF;
+    border: solid 0.5px rgba(228, 228, 228, 0.959);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 5px 0px;
+    text-align: left;
+    color: #373736;
+    display: flex;
+    word-wrap: break-word;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    border-bottom: 6px solid transparent;
+}
+
+#botonNavegacion a i {
+    font-size: 25px;
+}
+
+#botonNavegacion #textoMenu {
+    display: none;
+}
+
+#botonNavegacion a:hover {
+    border-bottom: 6px solid #466967;
+    color: #466967;
+}
+
+#containerContenidoPPrincipal {
+    background-color: white;
+    margin: 0 10px;
+    padding-top: 90px;
+    border-radius: 5px;
+}
+
+#containerContenidoPPrincipal h1 {
+    text-align: center;
+    color: #585858;
+    font-weight: bold;
+    font-size: 25px;
 }
 
 #containerContenidoPPrincipal #parrafoPrincipal {
-    padding: 20px;
+    padding: 25px 5px 0;
+    text-align: center;
     margin: 0px 20px;
 }
 
 #containerContenidoPPrincipal iframe {
-    height: 300px;
+    height: 230px;
 }
 
 #containerContenidoPPrincipal #modulos {
-    margin: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    flex-direction: column;
+}
+
+#containerContenidoPPrincipal #modulos img {
+    width: 50%;
 }
 
 #containerContenidoPPrincipal #modulosGris {
-    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #F4F3F4;
+    flex-direction: column;
 }
+
+#containerContenidoPPrincipal #modulos #contenidoModulos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 30px 0;
+    align-items: center;
+}
+
+#containerContenidoPPrincipal #modulosGris #contenidoModulos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 30px 0;
+    align-items: center;
+}
+
+#contenidoModulos #tituloUno {
+    color: #F1880D;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#contenidoModulos #subTituloUno {
+    color: #F1880D;
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 17px;
+}
+
+#contenidoModulos #tituloDos {
+    color: #3F8E88;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#contenidoModulos #subTituloDos {
+    color: #3F8E88;
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 17px;
+}
+
+#contenidoModulos #tituloTres {
+    color: #185694;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#contenidoModulos #subTituloTres {
+    color: #185694;
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 17px;
+}
+
+#contenidoModulos p {
+    font-weight: lighter;
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#contenidoModulos a {
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    width: 150px;
+    border-radius: 22px;
+    text-align: center;
+    padding: 5px 0;
+}
+
+#contenidoModulos #btn1 {
+    background-color: #F1880D;
+    border: 1px solid transparent;
+}
+
+#contenidoModulos #btn1:hover {
+    background-color: white;
+    color: #F1880D;
+    border: 1px solid #F1880D;
+}
+
+#contenidoModulos #btn2 {
+    background-color: #3F8E88;
+    border: 1px solid transparent;
+}
+
+#contenidoModulos #btn2:hover {
+    background-color: white;
+    color: #3F8E88;
+    border: 1px solid #3F8E88;
+}
+
+#contenidoModulos #btn3 {
+    background-color: #185694;
+    border: 1px solid transparent;
+}
+
+#contenidoModulos #btn3:hover {
+    background-color: white;
+    color: #185694;
+    border: 1px solid #185694;
+}
+
+#footer img {
+    width: 100%;
+    height: auto;
+}
+
+/* CSS Pagina Modulos */
+#containerContenidoPModulos {
+    background-color: white;
+    margin: 0 10px;
+
+}
+
+#containerContenidoPModulos #portada {
+    width: 100%;
+    height: 465px;
+    background-image: url(/ContenidoModulo/img/portada.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#containerContenidoPModulos #portada h1 {
+    text-align: center;
+    color: #F1880D;
+    font-weight: bold;
+    font-size: 48px;
+    text-align: left;
+}
+
+#containerContenidoPModulos #portada p {
+    text-align: justify;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#containerContenidoPModulos #portada a {
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    border-radius: 22px;
+    text-align: center;
+    padding: 5px 10px;
+    background-color: #F1880D;
+    border: 1px solid transparent;
+}
+
+#containerContenidoPModulos #portada a:hover {
+    background-color: white;
+    color: #F1880D;
+    border: 1px solid #F1880D;
+}
+
+#containerContenidoPModulos #parrafoPrincipal {
+    padding: 0 130px 40px;
+    text-align: center;
+}
+
+#containerContenidoPModulos #botones {
+    display: flex;
+    justify-content: right;
+    margin: 30px 40px 0 0;
+}
+
+#containerContenidoPModulos #botones a {
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 22px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+#containerContenidoPModulos #btn1 {
+    background-color: #F4F3F4;
+    border: 1px solid transparent;
+    color: #585858;
+    padding: 5px 20px;
+}
+
+#containerContenidoPModulos #btn1:hover {
+    background-color: white;
+    color: #585858;
+    border: 1px solid #585858;
+}
+
+#containerContenidoPModulos #btn2 {
+    background-color: #F1880D;
+    border: 1px solid transparent;
+    color: white;
+    padding: 5px 10px;
+}
+
+#containerContenidoPModulos #btn2:hover {
+    background-color: white;
+    color: #F1880D;
+    border: 1px solid #F1880D;
+    }
 }
 
 /*Mobile*/
