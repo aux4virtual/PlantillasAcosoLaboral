@@ -99,13 +99,122 @@
 #containerContenidoPPrincipal #modulosGris #contenidoModulos {
     display: flex;
     flex-direction: column;
+    just/* CSS Pagina principal */
+@media only screen and (max-width: 600px) {
+#principalContainer {
+    background-color: #F4F3F4;
+    display: flex;
+    flex-direction: column;
+}
+
+#header img {
+    width: 100%;
+    height: auto;
+}
+
+#botonNavegacion {
+    display: flex;
     justify-content: center;
-    margin-left: 30px;
+    position: relative;
+    top: 30px;
+}
+
+#botonNavegacion a {
+    margin: 0 10px;
+    height: 50px;
+    width: 70px;
+    border-radius: 7px;
+    background-color: #FFFFFF;
+    border: solid 0.5px rgba(228, 228, 228, 0.959);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 5px 0px;
+    text-align: left;
+    color: #373736;
+    display: flex;
+    word-wrap: break-word;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    border-bottom: 6px solid transparent;
+}
+
+#botonNavegacion a i {
+    margin-right: 20px;
+    font-size: 25px;
+}
+
+#botonNavegacion #textoMenu {
+    display: none;
+}
+
+#botonNavegacion a:hover {
+    border-bottom: 6px solid #466967;
+    color: #466967;
+}
+
+#containerContenidoPPrincipal {
+    background-color: white;
+    margin: 0 10px;
+    padding-top: 90px;
+    border-radius: 5px;
+}
+
+#containerContenidoPPrincipal h1 {
+    text-align: center;
+    color: #585858;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#containerContenidoPPrincipal #parrafoPrincipal {
+    padding: 25px 0px;
+    text-align: center;
+    margin: 0px 10px;
+}
+
+#containerContenidoPPrincipal iframe {
+    height: 300px;
+}
+
+#containerContenidoPPrincipal #modulos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    flex-direction: column;
+}
+
+#containerContenidoPPrincipal #modulos img {
+    width: 60%;
+}
+
+#containerContenidoPPrincipal #modulosGris {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #F4F3F4;
+    flex-direction: column;
+}
+
+#containerContenidoPPrincipal #modulos #contenidoModulos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 30px 0;
+    align-items: center;
+}
+
+#containerContenidoPPrincipal #modulosGris #contenidoModulos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 30px 0;
+    align-items: center;
 }
 
 #contenidoModulos #tituloUno {
     color: #F1880D;
-    font-size: 28px;
+    font-size: 25px;
     font-weight: bold;
 }
 
@@ -118,7 +227,7 @@
 
 #contenidoModulos #tituloDos {
     color: #3F8E88;
-    font-size: 28px;
+    font-size: 25px;
     font-weight: bold;
 }
 
@@ -131,7 +240,7 @@
 
 #contenidoModulos #tituloTres {
     color: #185694;
-    font-size: 28px;
+    font-size: 25px;
     font-weight: bold;
 }
 
@@ -146,6 +255,7 @@
     font-weight: lighter;
     font-size: 18px;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 #contenidoModulos a {
