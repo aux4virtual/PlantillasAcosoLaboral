@@ -7,6 +7,7 @@
 }
 
 /* CSS Pagina principal */
+@media only screen and (max-width: 600px) {
 #principalContainer {
     background-color: #F4F3F4;
     display: flex;
@@ -22,15 +23,14 @@
     display: flex;
     justify-content: center;
     position: relative;
-    top: 35px;
+    top: 50px;
 }
 
 #botonNavegacion a {
     margin: 15px;
     height: 78px;
-    width: 215px;
+    width: 180px;
     border-radius: 7px;
-    border: none;
     background-color: #FFFFFF;
     border: solid 0.5px rgba(228, 228, 228, 0.959);
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 5px 0px;
@@ -71,21 +71,21 @@
 #containerContenidoPPrincipal #parrafoPrincipal {
     padding: 25px 40px;
     text-align: center;
-    margin: 0px 70px;
+    margin: 0px 30px;
 }
 
 #containerContenidoPPrincipal #modulos {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 50px 140px;
+    margin: 50px;
 }
 
 #containerContenidoPPrincipal #modulosGris {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 50px 140px;
+    padding: 50px;
     background-color: #F4F3F4;
 }
 
@@ -286,6 +286,32 @@
     background-color: white;
     color: #F1880D;
     border: 1px solid #F1880D;
+    }
+}
+
+/* Dispositivos pequeÃ±os (tabletas verticales y telefonos grandes, 600 px y mes) */
+@media only screen and (min-width: 600px) {
+    #botonNavegacion a {
+    margin: 0 15px;
+    width: 150px;
+}
+
+#containerContenidoPPrincipal #parrafoPrincipal {
+    padding: 20px;
+    margin: 0px 20px;
+}
+
+#containerContenidoPPrincipal iframe {
+    height: 300px;
+}
+
+#containerContenidoPPrincipal #modulos {
+    margin: 25px;
+}
+
+#containerContenidoPPrincipal #modulosGris {
+    padding: 25px;
+}
 }
 
 /*Mobile*/
