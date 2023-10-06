@@ -558,446 +558,390 @@
     }
 } */
 
-/* CSS Pagina Foro */
+/* Agujero de página CSS */
 #container-foro {
-    margin-left: 500px;
-    margin-right: 500px;
-    padding-top: 35px;
-    margin-top: -4px;
-    background: #F4F3F4;
-    margin-bottom: 40px;
+    parte superior acolchada :  35px ;
+    margen superior :  -4px ;
+    fondo :  # F4F3F4 ;
+    margen inferior :  40px ;
 }
 
-#banner {
-    margin-left: 500px;
-    margin-right: 500px;
-    text-align: center;
+# pancarta  {
+    alineación de texto : centro ;
 }
 
-#img-banner {
-    width: 100%;
+# banner-img  {
+    ancho :  100% ;
 }
 
 
-#container-nav {
-    display: flex;
-    justify-content: center;
+# navegación-contenedor  {
+    pantalla : flexible ;
+    justificar contenido : centrar ;
 }
 
-#container-btn {
-    margin: 15px;
-    height: 78px;
-    width: 215px;
-    border-radius: 7px;
-    border: none;
-    background-color: #FFFFFF;
-    border: solid 0.5px rgba(228, 228, 228, 0.959);
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 5px 0px;
-    text-align: left;
-    color: #373736;
-    display: flex;
-    word-wrap: break-word;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-}
-
-
-#container-btn:hover {
-    border-bottom: 6px solid #466967;
-    color: #466967;
+# contenedor-btn  {
+    margen :  15px ;
+    altura :  78 píxeles ;
+    ancho :  215 píxeles ;
+    radio de borde :  7px ;
+    borde : ninguno ;
+    color de fondo :  # FFFFFF ;
+    borde : sólido 0.5px  rgba ( 228 ,  228 ,  228 ,  0.959 );
+    sombra de cuadro :  rgba ( 99 ,  99 ,  99 ,  0.2 )  0px  2px  5px  0px ;
+    alineación de texto : izquierda ;
+    color :  # 373736 ;
+    pantalla : flexible ;
+    ajuste de palabras : romper-palabra ;
+    alinear elementos : centrar ;
+    justificar contenido : centrar ;
+    cursor : puntero ;
 }
 
 
-#btn-decoration {
-    text-decoration: none;
-    border: none;
-    margin-top: 14px;
-    background: none;
-    margin-left: 12px;
-    font-weight: 700;
-    margin-bottom: 12px;
-    margin-right: 10px;
-    font-size: 24px;
+# contenedor-btn : flotar  {
+    altura :  73px ;
+    borde inferior :  5px sólido # 466967 ;
+    color :  # 466967 ;
+}
+
+
+# btn-decoración  {
+    decoración de texto : ninguna ;
+    borde : ninguno ;
+    margen superior :  14px ;
+    antecedentes : ninguno ;
+    margen izquierdo :  12px ;
+    peso de fuente :  700 ;
+    margen inferior :  12px ;
+    margen derecho :  10px ;
+    tamaño de fuente :  24px ;
 }
 
 #icon-temario {
-    margin-left: 22px;
-    margin-top: 13px;
-    margin-bottom: 13px;
+    margen izquierdo :  22px ;
+    margen superior :  13px ;
+    margen inferior :  13px ;
 }
 
-#container_content {
-    background-color: white;
-    margin-top: -50px;
-    display: flex;
-    align-items: center;
+# contenido_contenedor  {
+    color de fondo : blanco ;
+    margen superior :  -50px ;
+    pantalla : flexible ;
+    alinear elementos : centrar ;
 
 }
 
 #img-content-foro {
-    margin-top: 130px;
-    margin-left: 100px;
-    margin-bottom: 100px;
+    margen superior :  130px ;
+    margen izquierdo :  100px ;
+    margen inferior :  100px ;
 
 }
 
 
 #p-foro {
-    color: black;
-    font-weight: 300;
-    word-wrap: break-word;
-    margin-right: 120px;
+    color : negro ;
+    peso de fuente :  300 ;
+    ajuste de palabras : romper-palabra ;
+    margen derecho :  120px ;
 }
 
 #title-foro {
-    color: #466967;
-    font-size: 48px;
-    font-weight: 700;
-    word-wrap: break-word;
-    margin-bottom: 20px;
+    color :  # 466967 ;
+    tamaño de fuente :  48px ;
+    peso de fuente :  700 ;
+    ajuste de palabras : romper-palabra ;
+    margen inferior :  20px ;
 }
 
 #author-foro {
-    width: 100%;
-    height: 100%;
-    color: black;
-    font-size: 22px;
-    font-weight: bold;
-    word-wrap: break-word;
-    margin-bottom: 20px;
+    ancho :  100% ;
+    altura :  100% ;
+    color : negro ;
+    tamaño de fuente :  22px ;
+    peso de fuente : negrita ;
+    ajuste de palabras : romper-palabra ;
+    margen inferior :  20px ;
 }
 
 #container-text-foro {
-    margin-left: 35px;
+    margen izquierdo :  35px ;
 }
 
-#concerns {
-    padding-bottom: 40px;
+# preocupaciones  {
+    fondo de relleno :  40px ;
 }
 
-#container-concerns {
-    background: #F4F3F4;
-    margin-left: 100px;
-    display: flex;
+# preocupaciones-contenedores  {
+    fondo :  # F4F3F4 ;
+    margen izquierdo :  100px ;
+    pantalla : flexible ;
 }
 
-#title-concerns {
-    width: 100%;
-    height: 100%;
-    color: #466967;
-    font-size: 35px;
-    font-weight: 700;
-    word-wrap: break-word;
-    margin-top: 50px;
+# preocupaciones sobre el título  {
+    ancho :  100% ;
+    altura :  100% ;
+    color :  # 466967 ;
+    tamaño de fuente :  35px ;
+    peso de fuente :  700 ;
+    ajuste de palabras : romper-palabra ;
+    margen superior :  50px ;
 }
 
-#p-concerns {
-    color: black;
-    font-size: 18px;
-    font-weight: 300;
-    margin-bottom: 40px;
-    word-wrap: break-word;
-    margin-right: 120px;
+# p-preocupaciones  {
+    color : negro ;
+    tamaño de fuente :  18px ;
+    peso de fuente :  300 ;
+    margen inferior :  40px ;
+    ajuste de palabras : romper-palabra ;
+    margen derecho :  120px ;
 }
 
-#text-img {
-    display: flex;
-}
-
-
-#btn-participate {
-    width: 100px;
-    height: 30px;
-    background-color: #466967;
-    border: none;
-    border-radius: 22px;
-    color: white;
-    font-size: 18px;
-    font-weight: 700;
-    padding: 6px;
-    padding-left: 25px;
-    padding-right: 25px;
-    word-wrap: break-word;
-    margin-bottom: 70px;
-    margin-top: 20px;
-    letter-spacing: 0.8px;
-    cursor: pointer;
-}
-
-#btn-participate:hover {
-    background-color: white;
-    border: 1px solid #466967;
-    color: #466967;
+# texto-img  {
+    pantalla : flexible ;
 }
 
 
+# btn-participar  {
+    ancho :  100px ;
+    altura :  30 píxeles ;
+    color de fondo :  # 466967 ;
+    borde : ninguno ;
+    radio del borde :  22px ;
+    color : blanco ;
+    tamaño de fuente :  18px ;
+    peso de fuente :  700 ;
+    relleno :  6px ;
+    relleno-izquierda :  25px ;
+    relleno-derecha :  25px ;
+    ajuste de palabras : romper-palabra ;
+    margen inferior :  70px ;
+    margen superior :  20px ;
+    espaciado entre letras :  0,8 px ;
+    cursor : puntero ;
+}
 
-@media(max-width: 1700px) {
+# btn-participar : pasar el cursor  {
+    color de fondo : blanco ;
+    borde :  1px sólido # 466967 ;
+    color :  # 466967 ;
+}
+
+
+
+@media ( ancho máximo :  1700 px )  {
+   
+    # btn-decoración  {
+        margen izquierdo :  12px ;
+    }
+
+    # img  {
+        altura :  30 píxeles ;
+        ancho :  42px ;
+        margen izquierdo :  22px ;
+        margen superior :  13px ;
+        margen inferior :  13px ;
+    }
+
+}
+
+@media ( ancho máximo :  1550 px )  {
+
+    # btn-decoración  {
+        tamaño de fuente :  19px ;
+        margen derecho :  10px ;
+    }
+    #img-content-foro {
+        margen superior :  130px ;
+        margen inferior :  100px ;
+    }
+}
+
+
+
+@media ( ancho máximo :  1200 px )  {
+    # contenedor-btn  {
+        altura :  70 píxeles ;
+    }
+}
+
+
+@media ( ancho máximo :  1003px )  {
+    #img-content-foro {
+        margen izquierdo :  0px ;
+    }
+
+}
+
+
+@media ( ancho máximo :  930 px )  {
+    # pancarta  {
+        margen izquierdo :  1px ;
+        margen derecho :  1px ;
+    }
+}
+
+
+@media ( ancho máximo :  854 px )  {
+
     #container-foro {
-        margin-left: 300px;
-        margin-right: 300px;
+        margen superior :  -120px ;
     }
+    
 
+    # contenedor-btn  {
 
-
-    #btn-decoration {
-        margin-left: 12px;
-    }
-
-    #img {
-        height: 30px;
-        width: 42px;
-        margin-left: 22px;
-        margin-top: 13px;
-        margin-bottom: 13px;
-    }
-
-    #banner {
-        margin-left: 300px;
-        margin-right: 300px;
-    }
-}
-
-
-
-
-@media(max-width: 1550px) {
-    #container-foro {
-        margin-left: 180px;
-        margin-right: 180px;
-    }
-
-
-
-    #btn-decoration {
-        font-size: 19px;
-        margin-right: 10px;
-    }
-
-    #banner {
-        margin-left: 180px;
-        margin-right: 180px;
+        altura :  70 píxeles ;
     }
 
     #img-content-foro {
-        margin-top: 130px;
-        margin-left: 100px;
-        margin-bottom: 100px;
-    }
-}
-
-
-
-@media(max-width: 1200px) {
-    #container-foro {
-        margin-left: 100px;
-        margin-right: 100px;
-    }
-
-    #container-btn {
-        height: 70px;
-    }
-
-    #banner {
-        margin-left: 100px;
-        margin-right: 100px;
-    }
-}
-
-
-@media(max-width: 1030px) {}
-
-
-@media(max-width: 1003px) {
-    #container-foro {
-        margin-left: 60px;
-        margin-right: 60px;
-    }
-
-    #banner {
-        margin-left: 60px;
-        margin-right: 60px;
-    }
-
-}
-
-
-@media(max-width: 930px) {
-    #container-foro {
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-
-    #banner {
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-}
-
-
-@media(max-width: 854px) {
-
-
-
-
-    #container-btn {
-
-        height: 70px;
-    }
-
-    #img-content-foro {
-        margin-top: 100px;
-        margin-bottom: 30px;
-        margin-left: 0px;
+        margen superior :  100px ;
+        margen inferior :  30px ;
+        margen izquierdo :  0px ;
     }
 
     #temario {
-        width: 110px;
+        ancho :  110px ;
     }
 
     #foro {
-        width: 90px;
+        ancho :  90 píxeles ;
     }
 
     #conclusiones {
-        width: 129px;
+        ancho :  129px ;
     }
 
-    #container-concerns {
-        margin-left: 50px;
+    # preocupaciones-contenedores  {
+        margen izquierdo :  50px ;
     }
 
-    #container_content {
-        display: block;
-        text-align: center;
+    # contenido_contenedor  {
+        mostrar : bloquear ;
+        alineación de texto : centro ;
     }
 
     #container-text-foro {
-        padding-bottom: 30px;
-        margin-left: 0px;
+        fondo de relleno :  30px ;
+        margen izquierdo :  0px ;
     }
-
     #p-foro {
-        font-size: 16.5px;
-        margin-right: 20px;
-        margin-left: 20px;
+        tamaño de fuente :  19,5 px ;
+        margen derecho :  20px ;
+        margen izquierdo :  20px ;
     }
-
 }
 
 
-@media(max-width: 640px) {
+@media ( ancho máximo :  640 px )  {
 
-    #container-foro {
-        margin-left: 15px;
-        margin-right: 15px;
+    # preocupaciones  {
+        alineación de texto : centro ;
     }
 
-    #btn-decoration {
-        display: none;
+    #container-foro {
+        margen izquierdo :  15px ;
+        margen derecho :  15px ;
+    }
+
+    # btn-decoración  {
+        pantalla : ninguna ;
     }
 
     #temario {
-        width: 110px;
-        height: 57px;
+        ancho :  110px ;
+        altura :  57 píxeles ;
     }
 
     #foro {
-        width: 90px;
-        height: 57px;
+        ancho :  90 píxeles ;
+        altura :  57 píxeles ;
 
     }
 
     #conclusiones {
-        width: 225px;
+        ancho :  225 píxeles ;
     }
 
-    #container-btn {
-        margin: 12px;
-        height: 57px;
-        width: 600px !important;
-        justify-content: center;
-        text-align: center;
-        justify-items: center;
+    # contenedor-btn  {
+        margen :  12px ;
+        altura :  57 píxeles ;
+        ancho :  600px  ! Importante ;
+        justificar contenido : centrar ;
+        alineación de texto : centro ;
+        justificar-elementos : centro ;
     }
 
-    #img {
-        max-width: 100%;
-        height: 30px;
-        width: 42px;
-        margin-left: 10px;
-        margin-right: 10px;
-        margin-top: 0px;
-        margin-bottom: 0px;
+    # img  {
+        ancho máximo :  100% ;
+        altura :  30 píxeles ;
+        ancho :  42px ;
+        margen izquierdo :  10px ;
+        margen derecho :  10px ;
+        margen superior :  0px ;
+        margen inferior :  0px ;
     }
 
     #img-content-foro {
-        width: 220px;
+        ancho :  220 píxeles ;
     }
 
     #title-foro {
-        font-size: 38px;
-        font-weight: 700;
+        tamaño de fuente :  38px ;
+        peso de fuente :  700 ;
     }
 
     #author-foro {
-        font-size: 19px;
+        tamaño de fuente :  19px ;
     }
 
     #p-foro {
-        font-size: 16.5px;
-        margin-right: 0px;
+        tamaño de fuente :  16,5 px ;
+        margen derecho :  0px ;
     }
 
 
-    #title-concerns {
-        font-size: 28px;
+    # preocupaciones sobre el título  {
+        tamaño de fuente :  28px ;
     }
 
-    #p-concerns {
-        font-size: 16.5px;
-    }
-
-
-
-    #btn-participate {
-        padding: 0px;
-        padding-top: 7px;
-        padding-left: 15px;
-        padding-right: 15px;
-        margin-bottom: -70px;
-        justify-content: center;
-        margin-top: 5px;
+    # p-preocupaciones  {
+        tamaño de fuente :  16,5 px ;
     }
 
 
-    #container-concerns {
-        margin-left: 40px;
+
+    # btn-participar  {
+        relleno :  0px ;
+        parte superior acolchada :  4px ;
+        margen inferior :  -70px ;
+        justificar contenido : centrar ;
+        margen superior :  5px ;
     }
 
-    #img-concerns {
-        display: none;
+
+    # preocupaciones-contenedores  {
+        margen izquierdo :  40px ;
     }
 
-    #concerns {
-        text-align: center;
+    # img-preocupaciones  {
+        pantalla : ninguna ;
+    }
+    # preocupaciones-contenedores  {
+        margen izquierdo :  20px ;
+        margen derecho :  20px ;
+
     }
 
-    #container-concerns {
-        margin-left: 20px;
-        margin-right: 20px;
-
+    # contenedor-btn-participar  {
+        pantalla : flexible ;
+        justificar contenido : centrar ;
+        margen inferior :  -19px ;
     }
 
-    #container-btn-participate {
-        display: flex;
-        justify-content: center;
-        margin-bottom: -19px;
-    }
-
-    #p-concerns {
-        margin-right: 0px;
+    # p-preocupaciones  {
+        margen derecho :  0px ;
     }
 }
 
