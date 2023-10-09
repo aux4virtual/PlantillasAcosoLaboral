@@ -1325,7 +1325,9 @@
         margin-right: 20px;
     }
 
-
+    #title-explorar-tematica {
+        font-size: 30px;
+    }
 
     #banner {
         margin-left: 10px;
@@ -1408,6 +1410,8 @@
 
     #title-explorar-tematica {
         font-size: 28px;
+        margin-bottom: 7px;   
+    
     }
 
     #img-papel-banner {
