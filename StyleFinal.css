@@ -652,7 +652,7 @@
 
 /* CSS Pagina Foro */
 #container-foro {
-    padding-top: 35px;
+    padding-top: -35px;
     margin-top: -4px;
     background: #F4F3F4;
     margin-bottom: 40px;
