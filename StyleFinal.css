@@ -395,6 +395,7 @@
     justify-content: center;
     align-items: center;
     margin: 10px;
+    padding: 0 20px;
     flex-direction: row;
 }
 
@@ -538,17 +539,18 @@
 }
 
 #containerContenidoPModulos #portada h1 {
-    text-align: center;
     color: #F1880D;
     font-weight: bold;
     font-size: 48px;
     text-align: left;
+    padding: 60px 60px 0;
 }
 
 #containerContenidoPModulos #portada p {
     text-align: justify;
     font-size: 18px;
     margin-bottom: 10px;
+    padding: 0 110px 10px;
 }
 
 #containerContenidoPModulos #portada a {
@@ -560,6 +562,7 @@
     padding: 5px 10px;
     background-color: #F1880D;
     border: 1px solid transparent;
+    margin: 0 110px 10px;
 }
 
 #containerContenidoPModulos #portada a:hover {
@@ -569,14 +572,15 @@
 }
 
 #containerContenidoPModulos #parrafoPrincipal {
-    padding: 0 130px 40px;
+    padding: 0 60px;
     text-align: center;
+    font-size: 18px;
 }
 
 #containerContenidoPModulos #botones {
     display: flex;
     justify-content: right;
-    margin: 30px 40px 0 0;
+    margin: 30px 25px 0 0;
 }
 
 #containerContenidoPModulos #botones a {
