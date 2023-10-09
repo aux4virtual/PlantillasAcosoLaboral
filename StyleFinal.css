@@ -81,6 +81,10 @@
     height: 230px;
 }
 
+#containerContenidoPModulos iframe {
+    height: 230px;
+}
+
 #containerContenidoPPrincipal #modulos {
     display: flex;
     justify-content: center;
@@ -265,19 +269,19 @@
 }
 
 #containerContenidoPModulos #parrafoPrincipal {
-    padding: 0 130px 40px;
+    padding: 0 30px;
     text-align: center;
 }
 
 #containerContenidoPModulos #botones {
     display: flex;
     justify-content: right;
-    margin: 30px 40px 0 0;
+    margin: 5px 20px 0 0;
 }
 
 #containerContenidoPModulos #botones a {
     font-weight: bold;
-    font-size: 18px;
+    font-size: 15px;
     border-radius: 22px;
     text-align: center;
     margin-left: 10px;
