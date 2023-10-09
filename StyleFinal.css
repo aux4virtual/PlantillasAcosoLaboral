@@ -219,8 +219,7 @@
 /* CSS Pagina Modulos */
 #containerContenidoPModulos {
     background-color: white;
-    margin: 0 10px;
-
+    margin-top: -40px;
 }
 
 #containerContenidoPModulos #portada {
@@ -525,8 +524,7 @@
 /* CSS Pagina Modulos */
 #containerContenidoPModulos {
     background-color: white;
-    margin: 0 10px;
-
+    margin-top: -45px;
 }
 
 #containerContenidoPModulos #portada {
@@ -1478,10 +1476,10 @@
     #container-title-banner{
         margin-top: -5px !important;
     }
-    #banner {
+/*     #banner {
         margin-left: 20px;
         margin-right: 20px;
-    }
+    } */
     
     #container-temas-modulos {
         margin-left: 15px;
