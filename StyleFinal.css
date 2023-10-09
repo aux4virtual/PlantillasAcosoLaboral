@@ -1264,14 +1264,8 @@
     #container-btn:hover {
         height: 70px;  
     }
-}
 
-@media(max-width: 1030px) {
-    #container-btn {
-        width: 190px;
-    }
-
-    #container_content {
+     #container_content {
         display: block;
         text-align: center;
     }
@@ -1282,6 +1276,14 @@
         margin-left: 0px;
         margin-bottom: 40px;
     }
+}
+
+@media(max-width: 1030px) {
+    #container-btn {
+        width: 190px;
+    }
+
+   
 }
 
 @media(max-width: 1003px) {
