@@ -221,7 +221,7 @@
 #containerContenidoPModulos #portada {
     width: 100%;
     height: 465px;
-    background-image: url(/ContenidoModulo/img/portada.svg);
+    background-image: url("https://aux4virtual.github.io/PlantillasAcosoLaboral/img/portada.svg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
