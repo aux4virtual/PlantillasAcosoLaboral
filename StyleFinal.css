@@ -22,8 +22,7 @@
 #botonNavegacion {
     display: flex;
     justify-content: center;
-    position: relative;
-    top: 30px;
+    margin-top: -70px;
 }
 
 #botonNavegacion a {
@@ -59,8 +58,8 @@
 
 #containerContenidoPPrincipal {
     background-color: white;
-    margin: 0 10px;
-    padding-top: 90px;
+    margin: -20px 10px;
+    padding-top: 60px;
     border-radius: 5px;
 }
 
@@ -94,6 +93,10 @@
 }
 
 #containerContenidoPPrincipal #modulos img {
+    width: 50%;
+}
+
+#containerContenidoPPrincipal #modulosGris img {
     width: 50%;
 }
 
@@ -367,9 +370,9 @@
 
 #containerContenidoPPrincipal {
     background-color: white;
-    margin: 0 10px;
     padding-top: 80px;
     border-radius: 5px;
+    margin-top: -90px;
 }
 
 #containerContenidoPPrincipal #titulo {
