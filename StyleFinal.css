@@ -892,7 +892,7 @@
     }
     
     #img-escritorio-banner-movil {
-        height: 130px;
+        height: 100px !important;
     }
     
     #container-img-escritorio-banner-movil {
@@ -1441,7 +1441,7 @@
 @media(max-width: 640px) {
 
     #img-planta-banner{
-        width: 40px;
+        width: 130px !important;
     }
         
     #uno-title{
