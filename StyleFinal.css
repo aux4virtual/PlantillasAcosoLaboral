@@ -22,7 +22,8 @@
 #botonNavegacion {
     display: flex;
     justify-content: center;
-    margin-top: -70px;
+    position: relative;
+    top: 30px;
 }
 
 #botonNavegacion a {
@@ -58,8 +59,8 @@
 
 #containerContenidoPPrincipal {
     background-color: white;
-    margin: -20px 10px;
-    padding-top: 60px;
+    margin: 0 10px;
+    padding-top: 90px;
     border-radius: 5px;
 }
 
@@ -370,9 +371,9 @@
 
 #containerContenidoPPrincipal {
     background-color: white;
+    margin: 0 10px;
     padding-top: 80px;
     border-radius: 5px;
-    margin-top: -90px;
 }
 
 #containerContenidoPPrincipal #titulo {
