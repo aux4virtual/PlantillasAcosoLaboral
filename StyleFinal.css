@@ -682,6 +682,12 @@
     margin-bottom: 40px;
 }
 
+#container-img-banner{
+    display: flex; 
+    margin-top: -180px; 
+    margin-bottom: 40px;
+}
+
 #container-nav {
     display: flex;
     justify-content: center;
