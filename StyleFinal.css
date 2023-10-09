@@ -1261,8 +1261,8 @@
 
 @media(max-width: 1550px) {
     #container-temas-modulos {
-        margin-left: 180px;
-        margin-right: 180px;
+        margin-left: 0px;
+        margin-right: 0px;
     }
 
     #btn-decoration {
