@@ -846,7 +846,14 @@
 }
 
 @media(max-width: 930px) {
-    
+      #uno-title{
+        font-size: 28px; 
+    }
+
+    #dos-title{
+        font-size: 28px;
+    }
+
 }
 
 
