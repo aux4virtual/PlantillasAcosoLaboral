@@ -216,7 +216,6 @@
 #containerContenidoPModulos {
     background-color: white;
     margin: 0 10px;
-
 }
 
 #containerContenidoPModulos #portada {
@@ -651,7 +650,6 @@
     }
 }
 
-
 /* CSS Pagina Foro */
 #container-foro {
     padding-top: 35px;
@@ -659,15 +657,6 @@
     background: #F4F3F4;
     margin-bottom: 40px;
 }
-
-#banner {
-    text-align: center;
-}
-
-#img-banner {
-    width: 100%;
-}
-
 
 #container-nav {
     display: flex;
@@ -692,13 +681,11 @@
     cursor: pointer;
 }
 
-
 #container-btn:hover {
     height: 73px;
     border-bottom: 5px solid #466967;
     color: #466967;
 }
-
 
 #btn-decoration {
     text-decoration: none;
@@ -859,14 +846,66 @@
 }
 
 @media(max-width: 930px) {
-    #banner {
-        margin-left: 1px;
-        margin-right: 1px;
-    }
+    
 }
 
 
 @media(max-width: 854px) {
+    #container-title-banner{
+        text-align: center;
+        margin-top: -40px;
+        color: #FFFFFF;
+    }
+    
+    #container-img-banner-movil {
+        background-color: #466966
+    }
+    
+    #uno-title{
+        font-size: 40px;
+        font-weight: 700;
+        text-align: center;
+        border-bottom: solid 1px;
+    }
+    
+    #dos-title{
+        font-weight: 100;
+        font-size: 40px;
+    }
+    
+    #title-banner-movil {
+        margin-right: 40px;
+        margin-left: 40px;
+    }
+    
+    #img-escritorio-banner-movil {
+        height: 130px;
+    }
+    
+    #container-img-escritorio-banner-movil {
+        display: flex;
+        justify-content: end;
+    }
+    
+    #img-papel-banner {
+        display: block;
+        width: 100.3%;
+        height: 140px;
+        margin-top: -60px;
+    }
+    
+    #container-img-banner-movil {
+        height: 280px;
+        display: block;
+        text-align: center;
+    }
+    
+    #title-banner-movil {
+        height: 120px;
+        width: 380px;
+        margin-top: 40px;
+        visibility: visible;
+    }
 
     #container-foro {
         margin-top: -120px;
@@ -990,8 +1029,6 @@
         font-size: 16.5px;
     }
 
-
-
     #btn-participate {
         padding: 0px;
         padding-top: 4px;
@@ -999,7 +1036,6 @@
         justify-content: center;
         margin-top: 5px;
     }
-
 
     #container-concerns {
         margin-left: 40px;
@@ -1011,7 +1047,6 @@
     #container-concerns {
         margin-left: 20px;
         margin-right: 20px;
-
     }
 
     #container-btn-participate {
@@ -1032,41 +1067,10 @@
     background: white;
 }
 
-
-
-
-#banner {
-    max-width: 100%;
-    text-align: center;
-
-}
-
-#img-papel-banner {
-    display: none;
-}
-
-#container-img-banner-movil {
-    display: none;
-}
-
-
-#title-banner-movil {
-    visibility: hidden;
-}
-
-
-
-#img-banner {
-    width: 100%;
-
-}
-
-
 #head-content {
     display: flex;
     align-items: center;
 }
-
 
 #container_content {
     background-color: white;
@@ -1079,7 +1083,6 @@
     margin-left: 100px;
     margin-bottom: 60px;
 }
-
 
 #p-explorar-tematica {
     color: black;
@@ -1160,7 +1163,6 @@
     margin-top: 30px;
 }
 
-
 #btn-explorar-tematica {
     padding: 5px;
     padding-left: 15px;
@@ -1180,7 +1182,6 @@
     color: #F1880D;
 }
 
-
 #container-btn-volver {
     text-align: right;
     margin-bottom: 40px;
@@ -1197,7 +1198,6 @@
     color: #585858;
     font-weight: 700;
     cursor: pointer;
-
 }
 
 #btn-volver:hover {
@@ -1206,15 +1206,11 @@
     color: white;
 }
 
-
-
 @media(max-width: 1700px) {
     #container-temas-modulos {
         margin-left: 300px;
         margin-right: 300px;
     }
-
-
 
     #btn-decoration {
         margin-left: 12px;
@@ -1227,13 +1223,7 @@
         margin-top: 13px;
         margin-bottom: 13px;
     }
-
-    #banner {
-        margin-left: 300px;
-        margin-right: 300px;
-    }
 }
-
 
 
 @media(max-width: 1550px) {
@@ -1247,19 +1237,12 @@
         margin-right: 10px;
     }
 
-    #banner {
-        margin-left: 180px;
-        margin-right: 180px;
-    }
-
     #img-content-tematica {
         margin-top: 130px;
         margin-left: 100px;
         margin-bottom: 100px;
     }
 }
-
-
 
 @media(max-width: 1200px) {
     #container-temas-modulos {
@@ -1271,18 +1254,10 @@
         height: 75px;
     }
 
-    #banner {
-        margin-left: 100px;
-        margin-right: 100px;
-    }
-
     #container-btn:hover {
         height: 70px;  
     }
-
-   
 }
-
 
 @media(max-width: 1030px) {
     #container-btn {
@@ -1302,20 +1277,12 @@
     }
 }
 
-
 @media(max-width: 1003px) {
-
-    #banner {
-        margin-left: 60px;
-        margin-right: 60px;
-    }
 
     #topics {
         padding-left: 0px;
         padding-right: 0px;
     }
-
-
 }
 
 
@@ -1327,11 +1294,6 @@
 
     #title-explorar-tematica {
         font-size: 30px;
-    }
-
-    #banner {
-        margin-left: 10px;
-        margin-right: 10px;
     }
 
     #p-topics{
@@ -1349,47 +1311,6 @@
 }
 
 @media(max-width: 854px) {
-    #img-banner {
-        display: none;
-    }
-
-    #container-title-banner{
-        text-align: center;
-        margin-top: -40px; 
-        color: #FFFFFF;
-    }
-
-
-    #container-img-banner-movil {
-        background-color: #466966
-    }
-
-    #uno-title{
-        font-size: 40px; 
-        font-weight: 700;
-        text-align: center;
-        border-bottom: solid 1px;
-    }
-
-    #dos-title{
-        font-weight: 100;
-        font-size: 40px;
-    }
-
-    #title-banner-movil {
-        margin-right: 40px;
-        margin-left: 40px;
-    }
-
-    #img-escritorio-banner-movil {
-        height: 130px;
-    }
-
-    #container-img-escritorio-banner-movil {
-        display: flex;
-        justify-content: end;
-    }
-
     #container-btn {
         height: 75px;
     }
@@ -1400,8 +1321,6 @@
         color: #466967;
     }
 
-
-
     #p-explorar-tematica {
         margin-bottom: 30px;
         margin-right: 0px;
@@ -1410,44 +1329,23 @@
 
     #title-explorar-tematica {
         font-size: 28px;
-        margin-bottom: 7px;   
-    
+        margin-bottom: 7px;
     }
-
-    #img-papel-banner {
-        display: block;
-        width: 100.3%;
-        height: 140px;
-        margin-top: -60px;
-    }
-
-    #container-img-banner-movil {
-        height: 280px;
-        display: block;
-        text-align: center;
-    }
-
-
-    #title-banner-movil {
-        height: 120px;
-        width: 380px;
-        margin-top: 40px;
-        visibility: visible;
-    }
-
-
 }
 
 @media(max-width: 730px) {
-
     #uno-title{
-        font-size: 35px; 
+        font-size: 35px;
     }
-
     #dos-title{
         font-size: 35px;
     }
-
+    #title-banner-movil {
+        height: 90px;
+        width: 340px;
+        margin-top: 40px;
+        visibility: visible;
+    }
 
     #container-temas-modulos {
         margin-left: 15px;
@@ -1513,58 +1411,31 @@
     #p-explorar-tematica {
         font-size: 17px;
     }
-
-    #title-banner-movil {
-        height: 90px;
-        width: 340px;
-        margin-top: 40px;
-        visibility: visible;
-    }
 }
 
-
 @media(max-width: 640px) {
-
     #uno-title{
-        font-size: 30px; 
+        font-size: 30px;
     }
-
     #dos-title{
         font-size: 30px;
     }
-
-    
     #container-title-banner{
-        margin-top: -20px; 
-    }
-
-    #container-temas-modulos {
-        margin-left: 15px;
-        margin-right: 15px;
+        margin-top: -20px;
     }
     #banner {
         margin-left: 20px;
         margin-right: 20px;
     }
-
     
+    #container-temas-modulos {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
 
 }
 
 @media(max-width: 400px) {
-
-    #uno-title{
-        font-size: 25px; 
-    }
-
-    #dos-title{
-        font-size: 25px;
-    }
-
-    #container-title-banner{
-        margin-top: 0px; 
-    }
-
     #topics {
         padding-left: 15px;
         padding-right: 15px;
@@ -1572,11 +1443,6 @@
 
     #title-explorar-tematica {
         font-size: 25px;
-    }
-
-    #banner {
-        margin-left: 20px;
-        margin-right: 20px;
     }
 
 }
@@ -1588,16 +1454,74 @@
         margin: auto;
 
     }
+}
 
-    #container-img-banner-movil{
-        margin: auto;
-    }
-    #container-img-banner-movil{
-        width: 400px;
-        margin: auto;
-    }
-    #img-papel-banner{
-        width: 400px;
-    }
+/* CSS Banner general */
+#banner {
+    max-width: 100%;
+    text-align: center;
+}
+
+#container-title-banner{
+    text-align: center;
+    margin-top: -40px; 
+    color: #FFFFFF;
+}
+
+#container-img-banner-movil {
+    background-color: #466966
+}
+
+#uno-title{
+    font-size: 40px; 
+    font-weight: 700;
+    text-align: center;
+    border-bottom: solid 1px;
+}
+
+#dos-title{
+    font-weight: 100;
+    font-size: 40px;
+}
+
+#title-banner-movil {
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+#img-escritorio-banner-movil {
+    height: 130px;
+}
+
+#container-img-escritorio-banner-movil {
+    display: flex;
+    justify-content: end;
+}
+
+#img-papel-banner {
+    display: block;
+    width: 100.3%;
+    height: 140px;
+    margin-top: -60px;
+}
+
+#container-img-banner-movil {
+    height: 280px;
+    display: block;
+    text-align: center;
+}
+
+
+#title-banner-movil {
+    height: 120px;
+    width: 380px;
+    margin-top: 40px;
+    visibility: visible;
+}
+
+
+
+#img-banner {
+    width: 100%;
 
 }
