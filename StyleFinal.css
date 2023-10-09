@@ -1265,6 +1265,14 @@
         height: 70px;  
     }
 
+}
+
+@media(max-width: 1030px) {
+    #container-btn {
+        width: 190px;
+    }
+
+    
      #container_content {
         display: block;
         text-align: center;
@@ -1275,12 +1283,6 @@
         margin-top: 40px;
         margin-left: 0px;
         margin-bottom: 40px;
-    }
-}
-
-@media(max-width: 1030px) {
-    #container-btn {
-        width: 190px;
     }
 
    
