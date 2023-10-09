@@ -1439,6 +1439,11 @@
 }
 
 @media(max-width: 640px) {
+
+    #img-planta-banner{
+        width: 40px;
+    }
+        
     #uno-title{
         font-size: 30px;
     }
