@@ -1569,6 +1569,14 @@
     #img-escritorio-banner-movil {
         height: 110px;
     } 
+
+      #uno-title{
+        font-size: 25px; 
+    }
+
+    #dos-title{
+        font-size: 25px;
+    }
 }
 
 
@@ -1628,13 +1636,7 @@
 
 @media(max-width: 400px) {
 
-    #uno-title{
-        font-size: 25px; 
-    }
-
-    #dos-title{
-        font-size: 25px;
-    }
+  
 
     #container-title-banner{
         margin-top: 0px; 
