@@ -933,10 +933,6 @@
         text-align: center;
     }
 
-    #container-foro {
-        margin-left: 15px;
-        margin-right: 15px;
-    }
 
     #btn-decoration {
         display: none;
@@ -1012,7 +1008,7 @@
     }
 
     #container-concerns {
-        margin-left: 40px;
+        margin-left: 0px !important;
     }
 
     #img-concerns {
