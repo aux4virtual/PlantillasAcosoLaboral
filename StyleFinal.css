@@ -1561,6 +1561,18 @@
 
 
 
+@media(max-width: 1030px) {
+       #img-planta-banner{
+        width: 140px;
+    }
+
+    #img-escritorio-banner-movil {
+        height: 110px;
+    } 
+}
+
+
+
 
 @media(max-width: 730px) {
 
@@ -1578,15 +1590,6 @@
         margin-top: 40px;
         visibility: visible;
     }
-
-    #img-planta-banner{
-        width: 140px;
-    }
-
-    #img-escritorio-banner-movil {
-        height: 110px;
-    }
-
 
     #container-planta-banner{
         margin-top: -170px; 
