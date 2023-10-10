@@ -1621,13 +1621,6 @@
 
 
 @media(max-width: 640px) {
-     #img-planta-banner {
-    width: 85px;
-    }
-
-    #img-escritorio-banner-movil {
-        height: 85px;
-    }
 
     #uno-title{
         font-size: 30px; 
@@ -1649,6 +1642,13 @@
 }
 
 @media(max-width: 400px) {
+    #img-planta-banner {
+    width: 68px;
+    }
+
+    #img-escritorio-banner-movil {
+        height: 68px;
+    }
     #container-title-banner{
         margin-top: 0px; 
     }
