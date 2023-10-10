@@ -866,6 +866,9 @@
     #img-content-foro {
         margin-left: 0px;
     }
+    #container-concerns {
+    margin-left: 0px;
+    }
 }
 
 
@@ -916,9 +919,7 @@
     margin-right: 0px;
     }
 
-    #container-concerns {
-    margin-left: 0px;
-    }
+  
 
     #title-concerns {
     margin-left: 0px;
