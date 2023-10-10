@@ -888,55 +888,56 @@
 
 
 @media(max-width: 854px) {
-    #container-title-banner{
+        #container-title-banner{
         text-align: center;
-        margin-top: -40px;
+        margin-top: -40px; 
         color: #FFFFFF;
     }
-    
+
     #container-img-banner-movil {
         background-color: #466966
     }
-    
+
     #uno-title{
-        font-size: 40px;
+        font-size: 40px; 
         font-weight: 700;
         text-align: center;
         border-bottom: solid 1px;
     }
-    
+
     #dos-title{
         font-weight: 100;
         font-size: 40px;
     }
-    
+
     #title-banner-movil {
         margin-right: 40px;
         margin-left: 40px;
     }
-    
+
     #img-escritorio-banner-movil {
-        height: 100px !important;
+        height: 130px;
     }
-    
+
     #container-img-escritorio-banner-movil {
         display: flex;
         justify-content: end;
     }
-    
+
     #img-papel-banner {
         display: block;
         width: 100.3%;
         height: 140px;
         margin-top: -60px;
     }
-    
+
     #container-img-banner-movil {
         height: 280px;
         display: block;
         text-align: center;
     }
-    
+
+
     #title-banner-movil {
         height: 120px;
         width: 380px;
@@ -990,7 +991,57 @@
     }
 }
 
+@media(max-width: 730px) {
+
+    #uno-title{
+        font-size: 35px; 
+    }
+
+    #dos-title{
+        font-size: 35px;
+    }
+
+    #title-banner-movil {
+        height: 90px;
+        width: 340px;
+        margin-top: 40px;
+        visibility: visible;
+    }
+
+    #img-planta-banner{
+        width: 140px;
+    }
+
+    #img-escritorio-banner-movil {
+        height: 110px;
+    }
+
+
+    #container-planta-banner{
+        margin-top: -170px; 
+    }
+    
+}
+
 @media(max-width: 640px) {
+
+      #uno-title{
+        font-size: 30px; 
+    }
+
+    #dos-title{
+        font-size: 30px;
+    }
+
+    
+    #container-title-banner{
+        margin-top: -20px; 
+    }
+
+    #banner {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
 
     #concerns {
         text-align: center;
@@ -1519,16 +1570,21 @@
 #banner {
     max-width: 100%;
     text-align: center;
+    margin-left: 500px;
+    margin-right: 500px;
 }
+
 
 #container-title-banner{
     text-align: center;
-    margin-top: -40px; 
+    margin-top: -140px; 
     color: #FFFFFF;
 }
 
+
 #container-img-banner-movil {
-    background-color: #466966
+    background-color: #466966;
+    
 }
 
 #uno-title{
@@ -1543,29 +1599,37 @@
     font-size: 40px;
 }
 
-#title-banner-movil {
-    margin-right: 40px;
-    margin-left: 40px;
-}
 
 #img-escritorio-banner-movil {
-    height: 130px;
+    height: 170px; 
 }
 
 #container-img-escritorio-banner-movil {
     display: flex;
     justify-content: end;
+
+}
+
+#container-planta-banner{
+    display: flex; 
+    margin-top: -190px; 
+    margin-bottom: 30px;
+}
+
+
+#img-planta-banner{
+    width: 170px;
 }
 
 #img-papel-banner {
     display: block;
     width: 100.3%;
-    height: 140px;
+    height: 110px !important;
     margin-top: -60px;
 }
 
 #container-img-banner-movil {
-    height: 280px;
+    height: 200px;
     display: block;
     text-align: center;
 }
@@ -1577,8 +1641,6 @@
     margin-top: 40px;
     visibility: visible;
 }
-
-
 
 #img-banner {
     width: 100%;
