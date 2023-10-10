@@ -1270,11 +1270,6 @@
 
 
 @media(max-width: 930px) {
-    #container-temas-modulos {
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-
     #title-explorar-tematica {
         font-size: 30px;
     }
