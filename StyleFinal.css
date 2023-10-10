@@ -1592,72 +1592,51 @@
     margin-bottom: 30px;
     }
 }
-
-   
 @media(max-width: 730px) {
-
-    
     #uno-title{
         font-size: 35px; 
     }
-
     #dos-title{
         font-size: 35px;
     }
-
     #title-banner-movil {
         height: 90px;
         width: 340px;
         margin-top: 40px;
         visibility: visible;
     }
-
     #container-planta-banner{
         margin-top: -170px; 
-    }
-    
+    }   
 }
-
-
-
 @media(max-width: 640px) {
-
     #uno-title{
         font-size: 30px; 
     }
-
     #dos-title{
         font-size: 30px;
-    }
-
-    
+    }   
    #container-title-banner {
-    margin-top: -35px;
+    margin-top: -30px;
 }
-
     #banner {
         margin-left: 20px;
         margin-right: 20px;
     }
 }
-
 @media(max-width: 400px) {
     #img-planta-banner {
     width: 95px;
     }
-
     #img-escritorio-banner-movil {
         height: 95px;
-    }
-    
+    }   
     #banner {
         margin-left: 20px;
         margin-right: 20px;
     }
 }
-
 @media(max-width: 330px) {
-
     #container-img-banner-movil{
         margin: auto;
     }
@@ -1668,10 +1647,4 @@
     #img-papel-banner{
         width: 400px;
     }
-
 }
-
-
-
-
-
