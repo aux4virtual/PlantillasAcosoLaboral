@@ -1577,12 +1577,19 @@
     #dos-title{
         font-size: 25px;
     }
+   #container-title-banner{
+    text-align: center;
+    margin-top: -80px; 
+    color: #FFFFFF;
+    }
 }
 
 
 
 
 @media(max-width: 730px) {
+
+  
 
     #uno-title{
         font-size: 35px; 
