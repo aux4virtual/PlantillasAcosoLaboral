@@ -1491,8 +1491,8 @@
 
 @media(max-width: 1030px) {
     #img-planta-banner {
-    width: 110px;
-    }
+    width: 140px;
+}
 
     #img-escritorio-banner-movil {
         height: 110px;
@@ -1531,8 +1531,6 @@
     margin-top: -250px;
     margin-bottom: 30px;
     }
-
-
 
     #container-img-banner-movil {
         background-color: #466966
