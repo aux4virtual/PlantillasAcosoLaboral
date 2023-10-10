@@ -1585,8 +1585,15 @@
 }
 
 
+@media(max-width: 854px) {
+    #container-planta-banner {
+    display: flex;
+    margin-top: -250px;
+    margin-bottom: 30px;
+    }
+}
 
-
+   
 @media(max-width: 730px) {
 
   
