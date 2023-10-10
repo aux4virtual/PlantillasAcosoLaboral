@@ -899,7 +899,7 @@
     }
 
     #container-concerns {
-        margin-left: 50px;
+        margin-left: 0px;
     }
 
     #container_content {
@@ -908,8 +908,9 @@
     }
 
     #container-concerns {
+
     margin-left: 0px;
-    }
+}
 
     #p-foro {
     margin-right: 0px;
