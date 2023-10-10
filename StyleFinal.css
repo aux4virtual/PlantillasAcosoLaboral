@@ -1413,8 +1413,6 @@
 #banner {
     max-width: 100%;
     text-align: center;
-    margin-left: 500px;
-    margin-right: 500px;
 }
 
 
@@ -1489,51 +1487,6 @@
     width: 100%;
 
 }
-
-@media(max-width: 1700px){
-
-    #banner {
-        margin-left: 300px;
-        margin-right: 300px;
-    }
-}
-
-
-
-@media(max-width: 1550px) {
-    #banner {
-        margin-left: 180px;
-        margin-right: 180px;
-    }
-
-}
-
-
-
-
-@media(max-width: 1200px) {
-
-    #banner {
-        margin-left: 100px;
-        margin-right: 100px;
-    }
-
-   
-}
-
-
-
-
-@media(max-width: 1003px) {
-    #banner {
-        margin-left: 60px;
-        margin-right: 60px;
-    }
-
-
-}
-
-
 
 @media(max-width: 930px) {
     #uno-title{
