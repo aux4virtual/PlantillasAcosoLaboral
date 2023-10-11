@@ -672,19 +672,11 @@
         padding: 0px 180px 10px 130px;
     }
 
-    #containerContenidoPPrincipal #modulos img {
-        width: 20%;
-    }
-    
-    #containerContenidoPPrincipal #modulosGris img {
-        width: 20%;
-    }
-
     #containerContenidoPPrincipal #modulos {
-        margin: 10px 245px;
+        margin: 10px 70px;
     }
         #containerContenidoPPrincipal #modulosGris {
-        padding: 10px 245px;
+        padding: 10px 70px;
     }
 }
 
