@@ -648,6 +648,10 @@
     #containerContenidoPPrincipal #modulos img {
         width: 40%;
     }
+    
+    #containerContenidoPPrincipal #modulosGris img {
+        width: 40%;
+    }
 
     #containerContenidoPModulos #portada p {
         padding: 0px 125px 10px 130px;
@@ -661,11 +665,26 @@
 @media only screen and (min-width: 1200px) {
     #containerContenidoPPrincipal #parrafoPrincipal {
         padding: 10px 40px 0;
-        margin: 0px 20px 10px;
+        margin: 0px 20px 30px;
     }
 
     #containerContenidoPModulos #portada p {
         padding: 0px 180px 10px 130px;
+    }
+
+    #containerContenidoPPrincipal #modulos img {
+        width: 20%;
+    }
+    
+    #containerContenidoPPrincipal #modulosGris img {
+        width: 20%;
+    }
+
+    #containerContenidoPPrincipal #modulos {
+        margin: 10px 245px;
+    }
+        #containerContenidoPPrincipal #modulosGris {
+        padding: 10px 245px;
     }
 }
 
