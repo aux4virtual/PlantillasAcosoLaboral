@@ -9,7 +9,7 @@
 /* CSS Pagina principal */
 @media only screen and (max-width: 600px) {
     #contenedorPrincipal{
-        margin-top: -85px;
+        margin-top: -90px;
     }
 
     #botonNavegacion {
