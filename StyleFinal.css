@@ -609,6 +609,9 @@
 }
 
 @media only screen and (min-width: 992px) {
+    #contenedorPrincipal {
+        margin-top: -105px;
+    }
     #botonNavegacion a {
         margin: 0 30px;
         height: 70px;
