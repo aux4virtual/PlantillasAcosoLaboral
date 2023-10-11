@@ -8,36 +8,34 @@
 
 /* CSS Pagina principal */
 @media only screen and (max-width: 600px) {
-#principalContainer {
-    background-color: #F4F3F4;
-    display: flex;
-    flex-direction: column;
-}
+    #contenedorPrincipal{
+        margin-top: -85px;
+    }
 
-#botonNavegacion {
-    display: flex;
-    justify-content: center;
-    position: relative;
-    top: 30px;
-}
+    #botonNavegacion {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: 30px;
+    }
 
-#botonNavegacion a {
-    margin: 0 10px;
-    height: 50px;
-    width: 70px;
-    border-radius: 7px;
-    background-color: #FFFFFF;
-    border: solid 0.5px rgba(228, 228, 228, 0.959);
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 5px 0px;
-    text-align: left;
-    color: #373736;
-    display: flex;
-    word-wrap: break-word;
-    align-items: center;
-    justify-content: center;
-    font-weight: bold;
-    border-bottom: 6px solid transparent;
-}
+    #botonNavegacion a {
+        margin: 0 10px;
+        height: 50px;
+        width: 70px;
+        border-radius: 7px;
+        background-color: #FFFFFF;
+        border: solid 0.5px rgba(228, 228, 228, 0.959);
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 5px 0px;
+        text-align: left;
+        color: #373736;
+        display: flex;
+        word-wrap: break-word;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        border-bottom: 6px solid transparent;
+    }
 
 #botonNavegacion a i {
     font-size: 25px;
@@ -54,8 +52,7 @@
 
 #containerContenidoPPrincipal {
     background-color: white;
-    margin: 0 10px;
-    padding-top: 90px;
+    padding-top: 55px;
     border-radius: 5px;
 }
 
@@ -67,8 +64,8 @@
 }
 
 #containerContenidoPPrincipal #parrafoPrincipal {
-    padding: 25px 5px 0;
-    text-align: center;
+    padding: 15px 5px 0;
+    text-align: justify;
     margin: 0px 20px;
 }
 
@@ -89,10 +86,6 @@
 }
 
 #containerContenidoPPrincipal #modulos img {
-    width: 50%;
-}
-
-#containerContenidoPPrincipal #modulosGris img {
     width: 50%;
 }
 
@@ -218,7 +211,7 @@
 /* CSS Pagina Modulos */
 #containerContenidoPModulos {
     background-color: white;
-    margin-top: -40px;
+    margin: 0 10px;
 }
 
 #containerContenidoPModulos #portada {
@@ -248,8 +241,6 @@
 }
 
 #containerContenidoPModulos #portada a {
-    position: relative;
-    top: 5px;
     font-weight: bold;
     font-size: 18px;
     color: white;
@@ -1430,7 +1421,6 @@
     text-align: center;
 }
 
-
 #container-title-banner{
     text-align: center;
     margin-top: -140px; 
@@ -1440,7 +1430,6 @@
 
 #container-img-banner-movil {
     background-color: #466966;
-    
 }
 
 #uno-title{
@@ -1454,7 +1443,6 @@
     font-weight: 100;
     font-size: 40px;
 }
-
 
 #img-escritorio-banner-movil {
     height: 170px; 
@@ -1471,7 +1459,6 @@
     margin-top: -190px; 
     margin-bottom: 30px;
 }
-
 
 #img-planta-banner{
     width: 170px;
@@ -1490,7 +1477,6 @@
     text-align: center;
 }
 
-
 #title-banner-movil {
     height: 120px;
     width: 380px;
@@ -1502,8 +1488,6 @@
     width: 100%;
 
 }
-
-
 
 @media(max-width: 1030px) {
     #img-planta-banner {
@@ -1527,7 +1511,6 @@
     color: #FFFFFF;
     }
 }
-
 
 @media(max-width: 930px) {
     #uno-title{
@@ -1556,7 +1539,6 @@
         height: 130px;
     }
 
-
     #img-papel-banner {
         display: block;
         width: 100.3%;
@@ -1569,8 +1551,6 @@
         display: block;
         text-align: center;
     }
-
-
     #title-banner-movil {
         height: 120px;
         width: 380px;
@@ -1580,9 +1560,6 @@
 
 
 }
-
-
-
 
 @media(max-width: 730px) {
     #uno-title{
@@ -1606,19 +1583,16 @@
 
 @media(max-width: 640px) {
     #uno-title{
-        font-size: 30px; 
+        font-size: 25px; 
     }
     #dos-title{
-        font-size: 30px;
+        font-size: 25px;
     }   
    #container-title-banner {
     margin-top: -17px;
-}
-    #banner {
-        margin-left: 20px;
-        margin-right: 20px;
     }
 }
+
 @media(max-width: 400px) {
     #img-planta-banner {
     width: 95px;
@@ -1631,11 +1605,6 @@
     margin-top: -10px;
 }
 
-    
-    #banner {
-        margin-left: 20px;
-        margin-right: 20px;
-    }
 }
 @media(max-width: 330px) {
     #container-img-banner-movil{
