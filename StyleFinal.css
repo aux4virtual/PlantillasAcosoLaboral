@@ -21,8 +21,8 @@
 
     #botonNavegacion a {
         margin: 0 10px;
-        height: 50px;
-        width: 70px;
+        height: 55px;
+        width: 85px;
         border-radius: 7px;
         background-color: #FFFFFF;
         border: solid 0.5px rgba(228, 228, 228, 0.959);
@@ -886,7 +886,7 @@
     margin-top: -80px;
     }
     #container-btn {
-        height: 70px;
+        height: 75px;
     }
 
     #img-content-foro {
@@ -966,7 +966,7 @@
     #container-btn {
         margin: 12px;
         height: 57px;
-        width: 600px !important;
+        width: 85px !important;
         justify-content: center;
         text-align: center;
         justify-items: center;
@@ -1298,7 +1298,7 @@
 
 @media(max-width: 854px) {
     #container-btn {
-        height: 75px;
+        height: 55px;
     }
 
     #container-btn:hover {
