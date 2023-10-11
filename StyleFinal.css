@@ -89,6 +89,10 @@
     width: 50%;
 }
 
+#containerContenidoPPrincipal #modulosGris img {
+    width: 50%;
+}
+
 #containerContenidoPPrincipal #modulosGris {
     display: flex;
     justify-content: center;
