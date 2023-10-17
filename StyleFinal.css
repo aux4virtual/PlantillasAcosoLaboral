@@ -955,6 +955,7 @@
 
     #concerns {
         text-align: center;
+        padding: 40px 10px;
     }
 
 
@@ -1014,11 +1015,10 @@
         margin-right: 0px;
     }
 
-
     #title-concerns {
         font-size: 28px;
-        margin-left: 40px;
-        
+        margin-left: 0;
+        margin-top: 10px;
     }
 
     #p-concerns {
@@ -1042,7 +1042,6 @@
     }
     #container-concerns {
         margin-left: 20px;
-        margin-right: 20px;
     }
 
     #container-btn-participate {
