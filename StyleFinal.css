@@ -1096,7 +1096,7 @@
 }
 
 #container-text-explorar-tematica {
-    margin-left: 35px;
+    margin: 0 35px;
 }
 
 #topics {
@@ -1202,11 +1202,6 @@
 }
 
 @media(max-width: 1700px) {
-    #container-temas-modulos {
-        margin-left: 300px;
-        margin-right: 300px;
-    }
-
     #btn-decoration {
         margin-left: 12px;
     }
@@ -1333,12 +1328,6 @@
 }
 
 @media(max-width: 730px) {
-
-    #container-temas-modulos {
-        margin-left: 15px;
-        margin-right: 15px;
-    }
-
     #container_topics {
         display: block;
         padding-bottom: 20px;
@@ -1398,16 +1387,6 @@
     #p-explorar-tematica {
         font-size: 17px;
     }
-}
-
-@media(max-width: 640px) {
-
-
-    #container-temas-modulos {
-        margin-left: 15px;
-        margin-right: 15px;
-    }
-
 }
 
 @media(max-width: 400px) {
